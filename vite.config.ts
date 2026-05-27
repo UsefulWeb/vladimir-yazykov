@@ -19,6 +19,12 @@ export default defineConfig({
   resolve: {
     alias: {
       '@src': path.resolve(dirname, 'src'),
+      '@app': path.resolve(dirname, 'src/slices/app'),
+      '@pages': path.resolve(dirname, 'src/slices/pages'),
+      '@widgets': path.resolve(dirname, 'src/slices/widgets'),
+      '@features': path.resolve(dirname, 'src/slices/features'),
+      '@entities': path.resolve(dirname, 'src/slices/entities'),
+      '@shared': path.resolve(dirname, 'src/slices/shared'),
     },
   },
   test: {

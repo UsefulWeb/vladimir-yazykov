@@ -17,7 +17,19 @@
     "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"]
+      "@src/*": ["src/*"],
+      "@app": ["src/slices/app/index.ts"],
+      "@app/*": ["src/slices/app/*"],
+      "@pages": ["src/slices/pages/index.ts"],
+      "@pages/*": ["src/slices/pages/*"],
+      "@widgets": ["src/slices/widgets/index.ts"],
+      "@widgets/*": ["src/slices/widgets/*"],
+      "@features": ["src/slices/features/index.ts"],
+      "@features/*": ["src/slices/features/*"],
+      "@entities": ["src/slices/entities/index.ts"],
+      "@entities/*": ["src/slices/entities/*"],
+      "@shared": ["src/slices/shared/index.ts"],
+      "@shared/*": ["src/slices/shared/*"]
     },
 
     /* Linting */
