@@ -1,14 +1,20 @@
 import { CssBaseline, ThemeProvider } from '@mui/material'
-import { appTheme } from '@src/slices/shared/theme/appTheme'
+import { appTheme } from '@shared/theme'
 import type { Preview } from '@storybook/react-vite'
+import { HelmetProvider } from 'react-helmet-async'
+import { MemoryRouter } from 'react-router-dom'
 
 const preview: Preview = {
   decorators: [
     (Story) => (
-      <ThemeProvider theme={appTheme}>
-        <CssBaseline />
-        <Story />
-      </ThemeProvider>
+      <HelmetProvider>
+        <ThemeProvider theme={appTheme}>
+          <CssBaseline />
+          <MemoryRouter>
+            <Story />
+          </MemoryRouter>
+        </ThemeProvider>
+      </HelmetProvider>
     ),
   ],
   parameters: {
@@ -18,7 +24,6 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
-
     a11y: {
       test: 'todo',
     },

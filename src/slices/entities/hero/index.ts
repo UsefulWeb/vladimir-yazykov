@@ -1,1 +1,1 @@
-export { Hero } from './ui/Hero'
+export { Hero, type HeroProps } from './ui/Hero'

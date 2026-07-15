@@ -1,0 +1,1018 @@
+{
+  "common": {
+    "siteName": "Vladimir Yazykov",
+    "personRoles": "Frontend Architect • Web Engineer • Mentor",
+    "defaultDescription": "I help build complex web products, teach developers, and set up engineering processes.",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "discuss": "Discuss a project",
+    "resumeLink": "Resume",
+    "privacyLink": "Privacy"
+  },
+  "nav": {
+    "development": "Development",
+    "education": "Education",
+    "mentoring": "Mentoring",
+    "courses": "Courses",
+    "resume": "Resume",
+    "about": "About",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "resumeNav": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "fullstack-node": "Fullstack Node",
+    "fullstack-php": "Fullstack PHP",
+    "team-lead": "Team Lead",
+    "mentoring-education": "Education/Mentoring"
+  },
+  "home": {
+    "metaTitle": "Home",
+    "ctaMentoring": "Mentoring",
+    "ctaDiscuss": "Discuss a project",
+    "ctaEducation": "Education"
+  },
+  "directions": {
+    "title": "Directions",
+    "subtitle": "Pick what's closest to you — or just reach out directly.",
+    "more": "Learn more",
+    "contact": "Contact",
+    "mentoring": {
+      "title": "Mentoring",
+      "description": "Mentoring for beginner, junior, and middle frontend developers: fundamentals, practice, growth to senior."
+    },
+    "development": {
+      "title": "Development",
+      "description": "Complex SPAs, frontend architecture, CRM/API integrations, and technical audits for product teams."
+    },
+    "education": {
+      "title": "Education",
+      "description": "Program development and review, module authoring, lectures, and methodology for EdTech and universities."
+    }
+  },
+  "stats": {
+    "title": "By the numbers",
+    "web": "years in web development",
+    "projects": "delivered projects",
+    "students": "students taught",
+    "amocrm": "⭐ AmoCRM npm library"
+  },
+  "approach": {
+    "title": "Approach",
+    "items": [
+      "I design with room for the project to grow.",
+      "I minimize technical debt and unnecessary complexity.",
+      "I explain complex things simply — in code and in teaching.",
+      "I automate routine work: CI, quality gates, AI workflow.",
+      "I prefer stable solutions that are easy to maintain."
+    ]
+  },
+  "projectsPreview": {
+    "title": "Key projects",
+    "subtitle": "Open source and production case studies.",
+    "allCta": "All projects"
+  },
+  "about": {
+    "metaTitle": "About",
+    "bio": "Senior Frontend Engineer with 16+ years of commercial experience. I specialize in complex web interfaces, React/TypeScript applications, frontend system design, and building engineering processes. Worked with S7, VTB, Tele2, and EdTech companies.",
+    "skillsTitle": "Skills",
+    "skillGroups": {
+      "frontend": {
+        "title": "Frontend",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "GraphQL",
+          "PWA"
+        ]
+      },
+      "architecture": {
+        "title": "Architecture",
+        "items": [
+          "FSD",
+          "Redux Toolkit",
+          "React Query",
+          "SSR/SSG",
+          "performance"
+        ]
+      },
+      "backend": {
+        "title": "Backend & API",
+        "items": [
+          "Node.js",
+          "NestJS",
+          "PHP/Laravel",
+          "REST",
+          "PostgreSQL",
+          "CRM integrations"
+        ]
+      },
+      "tools": {
+        "title": "Tools",
+        "items": ["Vite", "Vitest", "Playwright", "Storybook", "CI/CD", "Biome"]
+      }
+    },
+    "openSourceTitle": "Open Source",
+    "educationTitle": "Education",
+    "educationText": "MAI, Faculty of Radio Electronics of Aircraft.",
+    "personallyTitle": "Beyond code",
+    "personal": [
+      "Yoshinkan Aikido — 1st dan.",
+      "Half marathon (2023).",
+      "Sailing and board games."
+    ],
+    "resumeCta": "Resume by direction",
+    "contactCta": "Contact"
+  },
+  "courses": {
+    "metaTitle": "Courses",
+    "metaDescription": "Recorded courses and educational programs on frontend development.",
+    "heroTitle": "Courses",
+    "heroSubtitle": "Recorded programs and materials for developers",
+    "aboutTitle": "About the courses",
+    "aboutText": "Author and expert of educational programs at Netology and other EdTech projects. Focus on practice, production approaches, and clear delivery of complex topics.",
+    "highlights": [
+      "~10 studio-recorded courses at Netology.",
+      "150k+ students have taken programs I contributed to.",
+      "Frontend, React, TypeScript, Next.js — from basics to production.",
+      "Hands-on assignments, capstone projects, code review."
+    ],
+    "topicsTitle": "Topics",
+    "topics": [
+      "JavaScript and TypeScript",
+      "React and Next.js",
+      "Frontend application architecture",
+      "Dev tooling and CI/CD"
+    ],
+    "edtechCta": "EdTech services",
+    "youtubeCta": "YouTube",
+    "mentoringCta": "Mentoring"
+  },
+  "development": {
+    "metaTitle": "Development",
+    "metaDescription": "Development of complex web applications, frontend systems, and integrations.",
+    "heroTitle": "Complex web application development",
+    "heroSubtitle": "Frontend architecture, integrations, production",
+    "services": {
+      "ai": {
+        "title": "AI automation",
+        "items": [
+          "LLM integration into products and internal tools.",
+          "RAG, agents, document and data processing pipelines.",
+          "Routine automation: reports, classification, content generation."
+        ]
+      },
+      "mobile": {
+        "title": "Mobile apps",
+        "items": [
+          "React Native and PWA for B2B and internal products.",
+          "Companion apps, offline mode, backend sync.",
+          "App store publishing and release support."
+        ]
+      },
+      "chatbots": {
+        "title": "Chatbots",
+        "items": [
+          "Bots for Telegram and web widgets for business needs.",
+          "Integration with CRM, APIs, knowledge bases, and support scenarios.",
+          "Dialog monitoring, analytics, scenario refinement."
+        ]
+      }
+    },
+    "tasksTitle": "Tasks I solve",
+    "tasks": [
+      "SPAs and internal platforms.",
+      "Frontend architecture and legacy refactoring.",
+      "CRM and external API integrations.",
+      "Technical audits and code review.",
+      "CI/CD, quality gates, DX."
+    ],
+    "stackTitle": "Stack",
+    "processTitle": "Process",
+    "process": [
+      {
+        "label": "Discovery",
+        "description": "Understanding the task and constraints."
+      },
+      {
+        "label": "Architecture",
+        "description": "Structure, contracts, risks."
+      },
+      {
+        "label": "Iterations",
+        "description": "Development with regular feedback."
+      },
+      {
+        "label": "Production",
+        "description": "Deployment, monitoring, documentation."
+      },
+      {
+        "label": "Support",
+        "description": "Maintenance and knowledge transfer."
+      }
+    ],
+    "cooperationTitle": "Cooperation formats",
+    "cooperation": [
+      "Turnkey project.",
+      "Technical audit.",
+      "Part-time lead / consulting.",
+      "Team augmentation for a phase."
+    ],
+    "casesCta": "Case studies",
+    "discussCta": "Discuss a project"
+  },
+  "education": {
+    "metaTitle": "Education",
+    "metaDescription": "EdTech expertise: programs, review, lectures, methodology.",
+    "heroTitle": "Educational projects",
+    "heroSubtitle": "Online schools, universities, corporate training",
+    "servicesTitle": "Services",
+    "services": [
+      "Program development and updates.",
+      "Review of materials and practical assignments.",
+      "Module and capstone project authoring.",
+      "Lectures and webinars.",
+      "Methodology and expert coordination.",
+      "Content for an interactive coding simulator."
+    ],
+    "experienceTitle": "Experience",
+    "experience": [
+      "OTUS — professional development instructor (2025 — present).",
+      "Netology — methodologist / expert / instructor / content producer (2018 — present).",
+      "Innopolis University — instructor / Fullstack mentor (March–April 2026).",
+      "TutorPlace — methodologist / learning path architect (March 2026).",
+      "Edutoria (Sber) — Subject Matter Expert for web development (May–October 2025).",
+      "Tel-Ran (Germany/Israel) — instructor, full-cycle bootcamp lead (2025).",
+      "RUDN University — course architect, «Digital Departments» program (~2023).",
+      "Yandex Practicum — mentor, learning team lead (2022).",
+      "GeekBrains — instructor for mass online courses (2017–2018).",
+      "Skillfactory — methodologist, intensive course author (2020)."
+    ],
+    "numbersTitle": "By the numbers",
+    "numbers": [
+      "66 video lectures for RUDN, cohort of ~3,000 students.",
+      "Up to 10,000 students per cohort (GeekBrains).",
+      "Leadership group of ~24 experts on the Frontend course (Netology).",
+      "4,500+ student reviews, 4.8–4.9 out of 5 rating.",
+      "150k+ students have taken courses I contributed to.",
+      "3,000+ homework and capstone submissions reviewed.",
+      "Student retention consistently >80% against a 70% target."
+    ],
+    "cta": "Discuss cooperation"
+  },
+  "mentoring": {
+    "metaTitle": "Mentoring",
+    "metaDescription": "Mentoring for beginner, junior, and middle frontend developers: fundamentals, practice, growth to senior.",
+    "heroTitle": "Frontend developer mentoring",
+    "heroSubtitle": "For beginners, juniors, and mid-level devs: fundamentals, practice, growth",
+    "forWhoTitle": "Who it's for",
+    "forWho": [
+      "You're just starting out in frontend.",
+      "A junior who needs feedback and a learning structure.",
+      "A mid-level dev who wants to grow to senior and level up engineering skills.",
+      "You're taking courses and want personal support.",
+      "You're preparing for a junior or middle interview.",
+      "You're stuck on tasks and need a mentor nearby."
+    ],
+    "whatIGiveTitle": "What I offer",
+    "whatIGive": [
+      "Code and homework review.",
+      "A roadmap from zero to your first offer or growth to senior.",
+      "JavaScript, React, and TypeScript fundamentals.",
+      "Architecture, production practices, and code review for middle devs.",
+      "Interview prep for junior and middle roles.",
+      "Practice, habits, and confidence in development."
+    ],
+    "formatsTitle": "Formats",
+    "formats": [
+      "One-off consultation (60–90 min).",
+      "Regular mentoring.",
+      "Project or homework review.",
+      "Interview preparation.",
+      "Debugging errors and next steps."
+    ],
+    "experienceTitle": "Experience",
+    "proof": [
+      "Netology: 10 courses, 150k+ students, 3,000+ homework reviews.",
+      "Yandex Practicum: mentoring, review, webinars.",
+      "RUDN: program and practicum for «Digital Departments»."
+    ],
+    "cta": "Leave a request",
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "question": "Is it suitable for beginners?",
+          "answer": "Yes, I work with beginners, juniors, and mid-level devs. I help build a foundation, grow to senior, and prepare for interviews."
+        },
+        {
+          "question": "How do sessions work?",
+          "answer": "Zoom or Telegram, 60–90 minutes: reviewing code, homework, and your questions."
+        },
+        {
+          "question": "Can we go over a course or pet project?",
+          "answer": "Yes — those are actually the most common. A work project works too, including under NDA."
+        },
+        {
+          "question": "Is there homework?",
+          "answer": "By agreement: tasks between sessions to reinforce learning."
+        }
+      ]
+    }
+  },
+  "contacts": {
+    "metaTitle": "Contacts",
+    "metaDescription": "Get in touch with Vladimir Yazykov: Telegram, email, phone.",
+    "heroTitle": "Contacts",
+    "heroSubtitle": "Message me on Telegram or pick a channel that works for you",
+    "telegramCta": "Message on Telegram",
+    "telegramLabel": "Telegram",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "githubLabel": "GitHub",
+    "faqTitle": "FAQ",
+    "faqText": "I usually reply within 1–2 business days. Please mention the type of request, context, and a project link if you have one."
+  },
+  "privacy": {
+    "metaTitle": "Privacy",
+    "metaDescription": "Personal data processing policy for this website.",
+    "title": "Privacy Policy",
+    "text1": "By submitting a request through the form or email, you share your name and contact details so I can respond. This data is not shared with third parties and is used only to communicate about your request.",
+    "text2": "For data deletion requests, email neizerth@mail.ru."
+  },
+  "notFound": {
+    "metaTitle": "Page not found",
+    "text": "Page not found.",
+    "homeCta": "Back to home"
+  },
+  "projects": {
+    "metaTitle": "Projects",
+    "metaDescription": "Open source and production case studies by direction: Frontend, Backend, FullStack, team leadership, education.",
+    "heroTitle": "Projects and case studies",
+    "heroSubtitle": "Engineering challenges and measurable results",
+    "all": "All",
+    "problemLabel": "Problem",
+    "solutionLabel": "Solution",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "fullstack": "FullStack",
+      "management": "Management",
+      "education": "Education"
+    },
+    "items": {
+      "arkham-divider": {
+        "title": "Arkham Divider",
+        "tagline": "Online card-divider builder with WASM, PDF generation, and FSD",
+        "metrics": ["8k visits/week", "200 KB bundle", "1500+ TS files"],
+        "problem": "Complex in-browser PDF and image generation for a board game.",
+        "solution": "Streaming PDF generation via vips-wasm, FSD architecture, i18n, CI/CD.",
+        "stack": ["React", "Vite", "GraphQL", "FSD", "WASM"]
+      },
+      "arkham-investigator": {
+        "title": "Arkham Investigator",
+        "tagline": "React Native tracker with offline-first and a Rust module",
+        "metrics": ["4500+ TS files", "2.5k installs"],
+        "problem": "A mobile companion for a board game that needed to work offline.",
+        "solution": "Offline-first, local multiplayer, native iOS/Rust modules.",
+        "stack": ["React Native", "Expo", "GraphQL", "Rust"]
+      },
+      "amocrm": {
+        "title": "AmoCRM npm Library",
+        "tagline": "TypeScript library for the AmoCRM REST API",
+        "metrics": ["187 ⭐ on GitHub"],
+        "problem": "Typed integration with AmoCRM for Node.js projects.",
+        "solution": "Full API typing, TSDoc, open source.",
+        "stack": ["TypeScript", "REST", "OpenAPI"]
+      },
+      "cryptobazar": {
+        "title": "CryptoBazar API",
+        "tagline": "Investor API Dashboard — a caching Node.js backend",
+        "metrics": ["60x faster response", "10–15 min cache"],
+        "problem": "Direct requests to a huge Google Sheet were slowing down portfolio composition data.",
+        "solution": "Rewrote the backend with pre-caching; rewrote the frontend in plain Vanilla JS (ES6).",
+        "stack": ["Node.js", "Google Sheets API", "REST"]
+      },
+      "s7-airlines": {
+        "title": "S7 Airlines — internal systems",
+        "tagline": "3 corporate web apps on a custom PHP MVC engine",
+        "metrics": ["3 applications", "cut manager time by 3–4 hrs/day"],
+        "problem": "Chaotic Excel file exchange and no digital dashboards for management decisions.",
+        "solution": "Aircraft interior rating dashboard, risk classification system with record locking, business card builder.",
+        "stack": ["PHP", "jQuery", "SQL"]
+      },
+      "voice-social-network": {
+        "title": "Add Egg",
+        "tagline": "Clubhouse-style app — rooms and real-time audio comments",
+        "metrics": ["tech lead, team of 2 developers"],
+        "problem": "Needed a platform for communication via voice messages only.",
+        "solution": "Room and user management, auth and roles, real-time backend logic.",
+        "stack": ["Vue.js", "Laravel"]
+      },
+      "gymnastics-federation": {
+        "title": "International Aerial Gymnastics Federation",
+        "tagline": "Online judging for competitions during the pandemic",
+        "metrics": ["team of 9–14", "real-time scoring"],
+        "problem": "Competitions couldn't be held in person — needed live streaming and online scoring.",
+        "solution": "A platform streaming performances from webcams with real-time judge scoring.",
+        "stack": ["Vue.js", "React", "Laravel"]
+      },
+      "yandex-practicum-league-alert": {
+        "title": "Yandex Practicum — League Alert",
+        "tagline": "Curated a team of 10 frontend developers on a student project",
+        "metrics": ["team of 10", "9 months of mentoring"],
+        "problem": "The student team needed real engineering processes, not an imitation of them.",
+        "solution": "Introduced a team-lead structure, peer review, and CI (GitLab/GitHub) for the League Alert nonprofit project.",
+        "stack": ["React", "process", "code review"]
+      },
+      "edtech": {
+        "title": "EdTech — Netology",
+        "tagline": "Expert / lead of educational programs",
+        "metrics": ["150k+ students", "10 courses", "3,000+ homework reviews"],
+        "problem": "Large-scale frontend programs for thousands of students.",
+        "solution": "Course authorship, review, and leading a team of 24 experts.",
+        "stack": ["React", "TypeScript", "Next.js", "methodology"]
+      },
+      "rudn": {
+        "title": "RUDN University — «Digital Departments»",
+        "tagline": "Course architect for a cohort of 3,000 students",
+        "metrics": ["66 video lectures", "~3,000-student cohort"],
+        "problem": "Students starting from scratch frequently missed classes and lost track of the course.",
+        "solution": "Partially pre-filled coding assignments, built-in hints, a methodology resilient to missed classes.",
+        "stack": ["methodology", "video production"]
+      },
+      "ivr-vtb-tele2": {
+        "title": "IVR for VTB and Tele2",
+        "tagline": "Interfaces for managing voice menu scenarios (AVR/IVR)",
+        "metrics": ["2 clients: VTB, Tele2"],
+        "problem": "A legacy AVR system needed frontend work for new clients.",
+        "solution": "Built client-side logic for voice menu configuration and integrated it with the Java backend.",
+        "stack": ["JavaScript", "HTML/CSS", "legacy Java integration"]
+      },
+      "multichainindex": {
+        "title": "Multichainindex.com",
+        "tagline": "A crypto project investment service built on Next.js",
+        "metrics": ["Web3 auth", "transactions from the frontend"],
+        "problem": "Needed a crypto investment service without a separate backend for transactions.",
+        "solution": "A React/Next.js app with Web3 wallet auth and direct frontend transactions.",
+        "stack": ["React", "Next.js", "Web3"]
+      },
+      "crosspack": {
+        "title": "CrossPack",
+        "tagline": "An interactive landing-page store for meal plans",
+        "metrics": ["full frontend build"],
+        "problem": "Needed a convenient service for choosing and ordering weekly/monthly meal plans.",
+        "solution": "Built an interactive order builder in React.",
+        "stack": ["React"]
+      },
+      "chrome-extension-parser": {
+        "title": "Google Chrome Extension",
+        "tagline": "Offline DOM parser exporting to CSV/Excel/ZIP",
+        "metrics": ["exports to CSV/Excel + ZIP"],
+        "problem": "Needed to quickly collect data tables (e.g. employee cards) from pages without manual copying.",
+        "solution": "From 1–2 sample elements, the script finds similar DOM nodes and generates a table with images.",
+        "stack": ["Vue.js", "Chrome Extension API"]
+      },
+      "beast-minimap": {
+        "title": "Interactive map for «Beast»",
+        "tagline": "A pet project that became an official publisher tool",
+        "metrics": ["officially recognized by the publisher"],
+        "problem": "Board game players lacked a convenient way to track markers on the map.",
+        "solution": "Built an interactive tool with multiple markers — the publisher included it in official add-ons.",
+        "stack": ["JavaScript"]
+      },
+      "fintorg": {
+        "title": "Fintorg",
+        "tagline": "A government procurement tracking service",
+        "metrics": ["FTP/XML parsing", "email-based bot authorization"],
+        "problem": "Manually collecting legal and litigation history data on companies took a lot of time.",
+        "solution": "A Node.js service for automatic authorization into «Kontur.Focus» plus FTP/XML tender parsing.",
+        "stack": ["Node.js", "PHP (Laravel)", "FTP/XML"]
+      },
+      "radio-components-tracker": {
+        "title": "Radio component tracking service",
+        "tagline": "A caching API proxy in front of a slow external API",
+        "metrics": ["removed connection limits", "instant cached responses"],
+        "problem": "The vendor's official API was slow and limited the number of connections.",
+        "solution": "A middleware Node.js server collected and cached data for instant repeat responses.",
+        "stack": ["Node.js", "React"]
+      },
+      "telegram-redirector": {
+        "title": "Telegram redirect service",
+        "tagline": "A high-load redirect service to bypass blocks",
+        "metrics": ["30k+ visits/day"],
+        "problem": "Needed alternative access to Telegram during blocks, monetized via ads.",
+        "solution": "A minimal high-load service in Vanilla JS with an ad-management admin panel.",
+        "stack": ["Vanilla JS", "Node.js", "Laravel"]
+      },
+      "real-vision-studio": {
+        "title": "Real Vision Studio — e-commerce and 3D configurators",
+        "tagline": "Online stores and visual editors on a custom PHP engine",
+        "metrics": ["3 projects: Tentorium, Triton Aqua, 3D furniture"],
+        "problem": "Standard engines of that era didn't support dynamic option editing or 3D previews.",
+        "solution": "An async AJAX store, a visual JS product-option editor, and ActiveX integration for 3D furniture upholstery previews.",
+        "stack": ["PHP", "jQuery", "AJAX", "ActiveX"]
+      },
+      "practical-psychology-university": {
+        "title": "University of Practical Psychology",
+        "tagline": "LMS, the «Psychologos» wiki encyclopedia, and the «Distance» module",
+        "metrics": ["migrated Drupal → Yii2", "OAuth2 REST API"],
+        "problem": "An outdated Drupal-based LMS didn't scale and lacked student cross-review.",
+        "solution": "Rewrote the system, introduced cross-review, extended CKEditor, and shipped an OAuth2 REST API.",
+        "stack": ["Yii2", "CodeIgniter", "Backbone.js", "CKEditor"]
+      },
+      "psychologi-online": {
+        "title": "«Psychologists Online»",
+        "tagline": "A forum with access gated by learning progress",
+        "metrics": ["sole developer and co-founder"],
+        "problem": "Needed a platform where new topics unlock only after a mentor reviews the previous assignment.",
+        "solution": "A custom forum on Yii2 that auto-unlocks branches based on passed assessments.",
+        "stack": ["Yii/Yii2", "PHP", "SQL"]
+      },
+      "moscow-property-department": {
+        "title": "Moscow Property Department",
+        "tagline": "A survey and voting system for residents",
+        "metrics": ["government portal", "results aggregation"],
+        "problem": "Needed to integrate surveys and voting into existing government infrastructure.",
+        "solution": "Built a survey platform with results aggregation and analytics.",
+        "stack": ["PHP", "jQuery", "SQL"]
+      },
+      "trenerskaya": {
+        "title": "Trenerskaya",
+        "tagline": "An online store for training programs",
+        "metrics": ["Robokassa payment integration"],
+        "problem": "Needed a store with order management and payment acceptance.",
+        "solution": "Implemented order management and Robokassa payment integration.",
+        "stack": ["PHP (Yii2)", "SQL", "jQuery"]
+      },
+      "video-lecture-schedule": {
+        "title": "Video lecture scheduling system",
+        "tagline": "Tracking mandatory broadcasts for factory employees",
+        "metrics": ["time-limited content access", "attendance tracking"],
+        "problem": "Needed to manage a schedule of mandatory broadcasts and restrict access by time window.",
+        "solution": "A schedule grid, unique time-limited links for lecturers, and pre/post-broadcast attendance tracking.",
+        "stack": ["AngularJS", "Node.js"]
+      },
+      "bonjoin": {
+        "title": "Bonjoin",
+        "tagline": "A services marketplace (like YouDo/Profi.ru)",
+        "metrics": ["catalog and request improvements"],
+        "problem": "An existing service-finder platform needed a simpler interface.",
+        "solution": "Improved the provider catalog, search, and filtering.",
+        "stack": ["PHP (Yii2)", "SQL"]
+      },
+      "antirabstvo": {
+        "title": "Antirabstvo",
+        "tagline": "A career consultant marketplace",
+        "metrics": ["two-way contact confirmation"],
+        "problem": "Needed a marketplace for matching clients with career consultants, with paid contact access.",
+        "solution": "A filterable catalog, a mutual-interest confirmation mechanism, and a personal dashboard.",
+        "stack": ["Laravel", "PHP", "SQL"]
+      },
+      "own-web-studio": {
+        "title": "My own web studio",
+        "tagline": "A flexible team of 9–14 people: pet and Web3 products",
+        "metrics": ["team of 9–14", "5 years of management"],
+        "problem": "Needed to build a full-cycle studio for high-load and Web3 products.",
+        "solution": "Assembled and led a flexible team of markup, frontend/backend developers, and QA/PM.",
+        "stack": ["process", "Git", "CI/CD", "hiring"]
+      },
+      "fiztekh-union": {
+        "title": "FizTech College / UniOn",
+        "tagline": "In-person web development teaching for schoolchildren",
+        "metrics": ["80%+ retention against a 70% target"],
+        "problem": "The web development program was weak and didn't prepare students for the real market.",
+        "solution": "Proactively reworked the program around applied skills — some students went on into the profession.",
+        "stack": ["HTML/CSS/JS/PHP", "methodology"]
+      },
+      "geekbrains": {
+        "title": "GeekBrains",
+        "tagline": "Mass online courses run under Mail.ru Group",
+        "metrics": ["up to 10,000 students/cohort", "4.8–4.9 rating"],
+        "problem": "A mass beginner audience needed a resilient methodology under high stress and strict KPIs.",
+        "solution": "Led cohorts of up to 10,000 students, keeping the rating above the platform's cutoff.",
+        "stack": ["HTML/CSS", "JavaScript", "PHP"]
+      },
+      "skolkovo": {
+        "title": "Skolkovo",
+        "tagline": "Accelerator program tracker for startups",
+        "metrics": ["2-day acceleration"],
+        "problem": "Teams of schoolchildren and students needed expert refinement of startup ideas before pitching.",
+        "solution": "Mentored the group, assessed technical feasibility, and estimated MVP development cost.",
+        "stack": ["mentoring", "MVP assessment"]
+      },
+      "tel-ran": {
+        "title": "Tel-Ran",
+        "tagline": "Full-cycle bootcamp for expats in Germany",
+        "metrics": ["group of 9", "zero to diploma"],
+        "problem": "Russian-speaking expats needed intensive retraining for the German job market.",
+        "solution": "Ran an intensive 3 hours, 4 days a week — the whole group defended their capstone projects.",
+        "stack": ["HTML/CSS/JS", "“do as I do” methodology"]
+      },
+      "edutoria": {
+        "title": "Edutoria (Sber)",
+        "tagline": "Subject Matter Expert for a web development course",
+        "metrics": ["3 course modules"],
+        "problem": "Needed expert validation of learning outcomes in a product-oriented EdTech team.",
+        "solution": "Wrote lessons and assignments, validated Learning Outcomes, worked Scrum with a methodologist and editor.",
+        "stack": ["methodology", "Scrum"]
+      },
+      "tutorplace": {
+        "title": "TutorPlace",
+        "tagline": "Learning path architect for web development",
+        "metrics": ["4 educational programs"],
+        "problem": "The platform needed structured programs to launch and scale.",
+        "solution": "Designed 4 programs, from learning paths to students' practical outcomes.",
+        "stack": ["methodology", "program design"]
+      },
+      "innopolis": {
+        "title": "Innopolis University",
+        "tagline": "A «zero to production» Fullstack program on Node.js",
+        "metrics": ["64 academic hours"],
+        "problem": "Developers with basic training lacked hands-on production backend experience.",
+        "solution": "Built a course from Node.js/Express through Docker, testing, and CI/CD, with assessments.",
+        "stack": ["Node.js", "Express", "TypeScript", "PostgreSQL"]
+      }
+    }
+  },
+  "resume": {
+    "metaTitlePrefix": "Resume",
+    "metaDescription": "Resume by direction: Frontend, Backend, Fullstack, Team Lead, education and mentoring.",
+    "heroTitle": "Resume",
+    "heroSubtitle": "Choose a direction — each has its own resume",
+    "more": "Learn more",
+    "contact": "Contact",
+    "aboutMeTitle": "Summary",
+    "experienceTitle": "Experience",
+    "educationTitle": "Education",
+    "education": "MAI, Faculty of Radio Electronics of Aircraft",
+    "skillsLanguagesTitle": "Skills & Languages",
+    "languages": "Russian — native, English — B1",
+    "printCta": "Print / Save as PDF",
+    "discussCta": "Discuss cooperation",
+    "telegramLabel": "Telegram",
+    "githubLabel": "GitHub",
+    "roles": {
+      "frontend": {
+        "title": "Frontend Developer",
+        "tagline": "React, TypeScript, Next.js — production experience since 2007",
+        "summary": "Frontend engineer and architect with 18+ years of commercial web development, most of it focused on client-side applications. I design SPAs and FSD architectures, optimize performance, and lead frontend for S7, VTB, Tele2, and EdTech platforms.",
+        "skills": [
+          "React",
+          "TypeScript",
+          "Next.js",
+          "JavaScript",
+          "Redux Toolkit",
+          "GraphQL (client)",
+          "FSD",
+          "SSR/SSG",
+          "Vite",
+          "Vitest",
+          "Playwright",
+          "Storybook",
+          "Ant Design",
+          "Material UI"
+        ],
+        "experience": [
+          {
+            "company": "Arkham Divider / Arkham Investigator",
+            "companyLine": "Pet projects in production for a board game",
+            "location": "Remote",
+            "role": "Frontend Architect / Developer",
+            "period": "2022 – 2023",
+            "mission": "Designed and built two production apps from scratch on an FSD architecture for thousands of users.",
+            "bullets": [
+              "Cut the initial bundle to 200 KB across 1500+ TS files via code splitting and lazy loading.",
+              "Implemented streaming PDF and image generation (300–1200 DPI) in the browser using vips-wasm and SharedArrayBuffer.",
+              "Sped up repository builds 2x by writing a custom dependency parser."
+            ]
+          },
+          {
+            "company": "Multichainindex.com",
+            "companyLine": "A crypto project investment service",
+            "location": "Remote",
+            "role": "Frontend Developer",
+            "period": "2023",
+            "mission": "Built a client-side React/Next.js app with direct Web3 transactions and no backend intermediary.",
+            "bullets": [
+              "Implemented Web3 wallet authentication, removing the need for a separate backend for operations.",
+              "Implemented transaction execution directly from the frontend on Next.js.",
+              "Ensured stable SPA performance under real-time investment operation load."
+            ]
+          },
+          {
+            "company": "International Aerial Gymnastics Federation",
+            "companyLine": "Online judging platform for competitions",
+            "location": "Remote",
+            "role": "Frontend Developer",
+            "period": "2020",
+            "mission": "Built the client side of a live-streaming and real-time scoring system during the pandemic.",
+            "bullets": [
+              "Built a real-time scoring interface in Vue.js and React for the judging panel.",
+              "Ensured uninterrupted interface performance during simultaneous webcam streams from participants.",
+              "Worked in a team of up to 14 people under tight deadlines — competitions couldn't be postponed."
+            ]
+          }
+        ]
+      },
+      "backend": {
+        "title": "Backend Developer",
+        "tagline": "Node.js, NestJS, PHP/Laravel — APIs, integrations, performance",
+        "summary": "18+ years of commercial development, a significant part of it in backend systems: from custom PHP MVC engines to Node.js/NestJS APIs. Designed internal corporate systems for S7 Airlines, IVR integrations for VTB and Tele2, and high-load Node.js services.",
+        "skills": [
+          "Node.js",
+          "NestJS",
+          "Express",
+          "PHP",
+          "Laravel",
+          "Yii2",
+          "REST",
+          "GraphQL (server)",
+          "PostgreSQL",
+          "MySQL",
+          "Redis",
+          "RabbitMQ",
+          "OAuth2",
+          "JWT",
+          "RBAC"
+        ],
+        "experience": [
+          {
+            "company": "CryptoBazar",
+            "companyLine": "Investor API Dashboard — a crypto investment service",
+            "location": "Remote",
+            "role": "Backend Developer / Performance Architect",
+            "period": "2022",
+            "mission": "Rewrote an outdated Node.js backend, removing the service's main performance bottleneck.",
+            "bullets": [
+              "Sped up API response 60x by replacing direct Google Sheets requests with caching every 10–15 minutes.",
+              "Designed crypto portfolio data aggregation from external sources from scratch.",
+              "Rewrote the frontend in plain Vanilla JS (ES6) for instant loading without framework overhead."
+            ]
+          },
+          {
+            "company": "Fintorg",
+            "companyLine": "A government procurement tracking service",
+            "location": "Moscow, Russia",
+            "role": "Backend Developer",
+            "period": "2015 – 2016",
+            "mission": "Automated the collection and enrichment of legal data on companies from government tenders.",
+            "bullets": [
+              "Implemented FTP/XML tender data parsing with storage by procurement number.",
+              "Built a Node.js service for automatic authorization into «Kontur.Focus» via reading emails on a dummy mailbox.",
+              "Removed the manual barrier to retrieving legal and litigation history by company registration number."
+            ]
+          },
+          {
+            "company": "S7 Airlines",
+            "companyLine": "A major airline, internal corporate systems",
+            "location": "Moscow, Russia",
+            "role": "Backend Developer",
+            "period": "2009 – 2011",
+            "mission": "Built three internal web applications from scratch on a custom PHP MVC engine.",
+            "bullets": [
+              "Cut managers' data-processing time by 3–4 hours a day by replacing Excel file exchange with a unified platform.",
+              "Implemented a record-locking and real-time collaboration system for multiple departments.",
+              "Designed an aircraft interior condition rating dashboard with a photo-based rating system."
+            ]
+          }
+        ]
+      },
+      "fullstack-node": {
+        "title": "Fullstack Developer (Node.js)",
+        "tagline": "React + Node.js/NestJS — from architecture to production",
+        "summary": "Full-cycle development on React/Next.js + Node.js/NestJS: from architecture and database design to deployment and monitoring. Experience with high-load services, WebSocket real-time systems, and Web3 integrations.",
+        "skills": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "NestJS",
+          "Express",
+          "GraphQL",
+          "PostgreSQL",
+          "Redis",
+          "WebSocket",
+          "Docker",
+          "CI/CD",
+          "Vercel"
+        ],
+        "experience": [
+          {
+            "company": "My own web studio",
+            "companyLine": "A flexible full-cycle web studio, 9–14 people",
+            "location": "Remote",
+            "role": "Fullstack Developer / Technical Lead",
+            "period": "2018 – 2023",
+            "mission": "Built high-load pet and Web3 products with a flexible fullstack team.",
+            "bullets": [
+              "Built distributed system architecture and Web3 integration for investment platforms.",
+              "Implemented middleware caching and backend optimization for high load in B2B services.",
+              "Built Chrome extensions and parsers as internal studio tools."
+            ]
+          },
+          {
+            "company": "Voice social network",
+            "companyLine": "A voice-chat platform (Clubhouse-style)",
+            "location": "Remote",
+            "role": "Fullstack Developer / Technical Lead",
+            "period": "2021",
+            "mission": "Built the backend and technical architecture of a voice social network from scratch.",
+            "bullets": [
+              "Implemented audio comment recording and sharing with real-time backend logic on Laravel.",
+              "Designed room, user, authentication, and role management systems.",
+              "Provided technical expertise and coordinated a team of 2 developers and a manager."
+            ]
+          },
+          {
+            "company": "Radio component tracking service",
+            "companyLine": "A B2B service for finding radio components",
+            "location": "Remote",
+            "role": "Fullstack Developer",
+            "period": "2016 – 2017",
+            "mission": "Removed a slow external API bottleneck that was limiting the service's growth.",
+            "bullets": [
+              "Designed a caching Node.js API proxy that removed the connection-count limit.",
+              "Sped up user response times via instant delivery of cached data.",
+              "Built the frontend in React on top of the new API layer."
+            ]
+          }
+        ]
+      },
+      "fullstack-php": {
+        "title": "Fullstack Developer (PHP)",
+        "tagline": "Laravel, Yii2 — from MVP to production for 15+ years",
+        "summary": "PHP was one of the first stacks in my career and is still an active tool today (2 current projects this year). Full cycle: from custom MVC engines to Laravel/Yii2 production, including a stint as a startup CTO.",
+        "skills": [
+          "PHP",
+          "Laravel",
+          "Yii/Yii2",
+          "MySQL",
+          "PostgreSQL",
+          "jQuery",
+          "REST",
+          "OAuth2",
+          "RBAC",
+          "Redis",
+          "Laravel Horizon"
+        ],
+        "experience": [
+          {
+            "company": "«Psychologists Online»",
+            "companyLine": "A startup in online education and psychology",
+            "location": "Moscow, Russia",
+            "role": "CTO / Co-founder",
+            "period": "2012 – 2018",
+            "mission": "Built the product from scratch solo — from backend architecture to business co-ownership.",
+            "bullets": [
+              "Built a custom Yii/Yii2 forum that auto-unlocks branches based on passed assessments.",
+              "Designed the product's entire backend architecture as the company's sole developer.",
+              "Implemented a moderation system and student-mentor interaction workflow."
+            ]
+          },
+          {
+            "company": "University of Practical Psychology",
+            "companyLine": "An educational platform with an LMS and wiki encyclopedia",
+            "location": "Moscow, Russia",
+            "role": "Senior Web Developer / Technical Lead",
+            "period": "2012 – 2015",
+            "mission": "Modernized an outdated LMS and wiki platform for thousands of users.",
+            "bullets": [
+              "Rewrote the LMS off Drupal, introducing cross-review (three-peer plus self-review).",
+              "Built an OAuth2 REST API for the «Distance» group coaching module on a Yii backend.",
+              "Extended CKEditor with Markdown/HTML/Wiki parsers and an article categorization system."
+            ]
+          },
+          {
+            "company": "Antirabstvo",
+            "companyLine": "A career consultant marketplace",
+            "location": "Remote",
+            "role": "Fullstack Developer",
+            "period": "2019",
+            "mission": "Built a career consultant marketplace on Laravel from scratch.",
+            "bullets": [
+              "Implemented dynamic catalog filtering by specialty, experience, and price.",
+              "Designed a mutual-interest confirmation mechanism with paid contact access.",
+              "Built a personal dashboard for specialists and clients with request handling."
+            ]
+          }
+        ]
+      },
+      "team-lead": {
+        "title": "Team Lead / Technical Manager",
+        "tagline": "Teams of up to 20 — process, architecture, mentorship",
+        "summary": "5+ years of management experience on top of 18+ years of engineering practice: from startup CTO to leading a studio of 9–14 people and curating student teams. I build processes (Git, CI/CD, code review) and make architectural decisions.",
+        "skills": [
+          "Team Lead",
+          "People management",
+          "Code review",
+          "Architectural decisions",
+          "CI/CD",
+          "Git-flow",
+          "Agile/Scrum",
+          "Hiring & onboarding",
+          "Mentorship"
+        ],
+        "experience": [
+          {
+            "company": "My own web studio",
+            "companyLine": "A flexible full-cycle web studio, 9–14 people",
+            "location": "Remote",
+            "role": "Technical Lead / Lead Developer",
+            "period": "2018 – 2023",
+            "mission": "Built and led a flexible full-cycle development team.",
+            "bullets": [
+              "Led a team of 9–14 specialists (markup, frontend, backend, QA/PM) across multiple projects.",
+              "Introduced technical audits and architecture reviews as a regular studio practice.",
+              "Owned hiring, task allocation, and technical expertise across all studio projects."
+            ]
+          },
+          {
+            "company": "International Aerial Gymnastics Federation",
+            "companyLine": "Online judging platform for competitions",
+            "location": "Remote",
+            "role": "Team Lead",
+            "period": "2020",
+            "mission": "Led development of a platform for holding competitions during the pandemic.",
+            "bullets": [
+              "Assembled and led a team of up to 14 (markup, frontend/backend, manager/QA).",
+              "Delivered a live-streaming and real-time scoring system from scratch.",
+              "Coordinated development under a hard deadline — competitions couldn't be postponed."
+            ]
+          },
+          {
+            "company": "Yandex Practicum",
+            "companyLine": "League Alert, a nonprofit fullstack student project",
+            "location": "Remote",
+            "role": "Development Team Curator",
+            "period": "2022",
+            "mission": "Ran a student team as a real engineering project with production processes.",
+            "bullets": [
+              "Introduced a team-lead structure and peer review for a team of 10 frontend developers.",
+              "Set up real CI (GitLab/GitHub) and task tracking in Notion instead of simulated process.",
+              "Coordinated result demos to the client over the project's 9-month run."
+            ]
+          }
+        ]
+      },
+      "mentoring-education": {
+        "title": "Education & Mentoring",
+        "tagline": "15+ years in IT education — from schoolchildren to production developers",
+        "summary": "I've been teaching and designing educational programs since 2009: mass online courses (up to 10,000 students per cohort), university programs, and one-on-one mentoring for Middle/Middle+ developers. 4.8–4.9 rating from 4,500+ reviews.",
+        "skills": [
+          "Teaching methodology",
+          "Program development",
+          "Code review",
+          "Mentoring",
+          "Public speaking",
+          "Technical content",
+          "EdTech products"
+        ],
+        "experience": [
+          {
+            "company": "Netology",
+            "companyLine": "A federal EdTech platform",
+            "location": "Remote",
+            "role": "Methodologist / Expert / Instructor / Content Producer",
+            "period": "2018 – present",
+            "mission": "Run the full cycle of educational programs — from methodology to recording courses.",
+            "bullets": [
+              "Recorded about 10 studio courses on JS, React, and Node.js as lead instructor.",
+              "Developed 24+ homework assignments for the «Basic JavaScript in the Browser» course, some still used since 2019.",
+              "Member of a 24-expert leadership group setting the program's quality benchmarks."
+            ]
+          },
+          {
+            "company": "GeekBrains",
+            "companyLine": "A mass online platform (Mail.ru Group)",
+            "location": "Remote",
+            "role": "Mass Online Course Instructor",
+            "period": "2017 – 2018",
+            "mission": "Led cohorts of up to 10,000 students, keeping the rating above the platform's cutoff.",
+            "bullets": [
+              "Held a 4.8–4.9 rating from 4,500+ reviews against the platform's 4.6 cutoff.",
+              "Handled an overshoot enrollment of 10,000 students instead of the planned 2,000.",
+              "Launched open morning sessions for beginners that seeded my YouTube channel."
+            ]
+          },
+          {
+            "company": "RUDN University",
+            "companyLine": "«Digital Departments» continuing-education program",
+            "location": "Moscow, Russia",
+            "role": "Course Architect",
+            "period": "2023",
+            "mission": "Designed a course resilient to missed classes for a cohort of 3,000 students, from scratch.",
+            "bullets": [
+              "Recorded 66 video lectures and built partially pre-filled coding assignments for beginners.",
+              "Kept an active core of ~700 out of 3,000 students under a 21–23 hour/week workload.",
+              "Designed a methodology that let students continue learning after missed classes."
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

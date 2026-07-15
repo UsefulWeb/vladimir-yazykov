@@ -10,5 +10,6 @@ const config: StorybookConfig = {
     '@storybook/addon-onboarding',
   ],
   framework: '@storybook/react-vite',
+  staticDirs: ['../public'],
 }
 export default config

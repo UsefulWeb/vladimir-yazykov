@@ -1,9 +1,9 @@
-import { CssBaseline, ThemeProvider } from '@mui/material'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import '@fontsource-variable/inter/index.css'
+import '@fontsource-variable/manrope/index.css'
 import '@src/slices/app/styles/index.css'
-import { App } from '@src/slices/app'
-import { appTheme } from '@src/slices/shared/theme/appTheme'
+import { AppProviders } from '@src/slices/app'
 
 const rootEl = document.getElementById('root')
 if (!rootEl) {
@@ -12,9 +12,6 @@ if (!rootEl) {
 
 createRoot(rootEl).render(
   <StrictMode>
-    <ThemeProvider theme={appTheme}>
-      <CssBaseline />
-      <App />
-    </ThemeProvider>
+    <AppProviders />
   </StrictMode>,
 )
