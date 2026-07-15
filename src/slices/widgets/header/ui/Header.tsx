@@ -1,5 +1,6 @@
 import CloseIcon from '@mui/icons-material/Close'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
+import MenuIcon from '@mui/icons-material/Menu'
 import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
@@ -237,7 +238,7 @@ export function Header() {
             onClick={() => setOpen(true)}
             aria-label={t('common.menu')}
           >
-            ☰
+            <MenuIcon />
           </IconButton>
         </Toolbar>
       </AppBar>

@@ -1,136 +1,41 @@
-# React + TypeScript + Vite
+# Владимир Языков — портфолио
 
-This template provides a minimal setup to get React working in Vite with HMR.
+Личный сайт-портфолио: направления работы (Frontend / Backend / FullStack / Team Lead / Обучение), 34 проекта с кейсами, резюме под каждое направление в формате CV, RU/EN.
 
-Currently, two official plugins are available:
+🔗 [i.u-w.me](https://i.u-w.me)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Стек
 
-## React Compiler
+React 19, TypeScript, MUI, Vite, React Router, react-i18next, Feature-Sliced Design, Biome, Vitest + Storybook (component tests), lefthook + commitlint.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Структура
 
-## Storybook
+```
+src/slices/
+  app/        — роутинг, провайдеры, глобальные стили
+  pages/      — страницы (home, about, projects, resume, ...)
+  widgets/    — крупные блоки (header, footer, stats, faq, ...)
+  entities/   — карточки/сущности (project-card, direction-card, ...)
+  features/   — изолированные фичи
+  shared/     — конфиг, локали (ru.json/en.json), тема, ui-кит, утилиты
+```
 
-### Запуск
+Slice-барьеры — `index.ts` в каждой папке, импорт только через них (`@pages`, `@widgets`, `@entities`, `@shared`, ...).
+
+## Разработка
 
 ```bash
-npm run storybook
+npm install
+npm run dev              # http://localhost:5173
+npm run build             # tsc -b + vite build → dist/
+npm run lint:fix          # biome
+npm run storybook         # http://localhost:6006
 ```
 
-Откроется Storybook на `http://localhost:6006`.
+## i18n
 
-### Сборка статики (CI/деплой)
+Переводы — `src/slices/shared/locales/{ru,en}.json`. Контентные модели (`model/content.ts`, `model/roles.ts`, `model/projects.ts`) — хуки (`useXContent()`), тянут строки через `t()`, детект языка по `navigator.language` + кэш в localStorage.
 
-```bash
-npm run build-storybook
-```
+## Деплой
 
-Результат будет в `storybook-static/`.
-
-### Где лежат сторисы
-
-- Сторисы: `src/stories/**/*.stories.{ts,tsx}`
-- Демо-компоненты для Storybook: `src/stories/*`
-- Глобальные декораторы/параметры: `.storybook/preview.tsx`
-
-### Как писать новую историю (пример)
-
-```tsx
-import type { Meta, StoryObj } from '@storybook/react-vite'
-import Button from '@mui/material/Button'
-
-const meta = {
-  title: 'MUI/Button',
-  component: Button,
-  tags: ['autodocs'],
-  args: { children: 'Кнопка', variant: 'contained' as const },
-} satisfies Meta<typeof Button>
-
-export default meta
-type Story = StoryObj<typeof meta>
-
-export const Contained: Story = {}
-export const Outlined: Story = { args: { variant: 'outlined' } }
-```
-
-### MUI тема в Storybook
-
-Мы уже подключаем `ThemeProvider` и `CssBaseline` глобально в `.storybook/preview.tsx`, поэтому MUI-компоненты в сторисах будут выглядеть так же, как в приложении.
-
-## Biome
-
-### Проверки и автофикс
-
-```bash
-npm run lint
-npm run lint:fix
-```
-
-### Форматирование
-
-```bash
-npm run format
-```
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+GitHub Actions → GitHub Pages (`.github/workflows/deploy.yml`), кастомный домен через `public/CNAME`.

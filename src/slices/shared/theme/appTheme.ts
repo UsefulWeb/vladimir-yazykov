@@ -6,20 +6,20 @@ const displayFont =
 
 export const appTheme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
     primary: {
-      main: '#1a1a2e',
+      main: '#8b93ff',
     },
     secondary: {
-      main: '#16213e',
+      main: '#5c6bc0',
     },
     text: {
-      primary: '#1a1a2e',
-      secondary: 'rgba(26, 26, 46, 0.72)',
+      primary: '#f0f0f5',
+      secondary: 'rgba(240, 240, 245, 0.72)',
     },
     background: {
-      default: '#fafafa',
-      paper: '#ffffff',
+      default: '#0d0e14',
+      paper: '#171922',
     },
   },
   typography: {

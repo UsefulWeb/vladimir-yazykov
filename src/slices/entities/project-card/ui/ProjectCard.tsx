@@ -45,32 +45,17 @@ export function ProjectCard({ project, expanded = false }: ProjectCardProps) {
             {project.tagline}
           </Typography>
           {project.githubRepo && (
-            <Stack direction="row" sx={{ gap: 1, flexWrap: 'wrap' }}>
-              <a
-                href={`https://github.com/${project.githubRepo}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={`https://img.shields.io/github/stars/${project.githubRepo}?style=flat-square&logo=github`}
-                  alt={`${project.githubRepo} stars`}
-                  height={20}
-                />
-              </a>
-              {!project.hideLastCommitBadge && (
-                <a
-                  href={`https://github.com/${project.githubRepo}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={`https://img.shields.io/github/last-commit/${project.githubRepo}?style=flat-square&logo=github`}
-                    alt={`${project.githubRepo} last commit`}
-                    height={20}
-                  />
-                </a>
-              )}
-            </Stack>
+            <a
+              href={`https://github.com/${project.githubRepo}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={`https://img.shields.io/github/stars/${project.githubRepo}?style=flat-square&logo=github`}
+                alt={`${project.githubRepo} stars`}
+                height={20}
+              />
+            </a>
           )}
           {expanded && project.problem && (
             <Typography variant="body2">

@@ -16,7 +16,6 @@ export interface Project {
   stack: string[]
   href?: string
   githubRepo?: string
-  hideLastCommitBadge?: boolean
   problem?: string
   solution?: string
 }
@@ -26,7 +25,6 @@ interface ProjectMeta {
   category: ProjectCategory
   href?: string
   githubRepo?: string
-  hideLastCommitBadge?: boolean
 }
 
 const projectMeta: ProjectMeta[] = [
@@ -47,7 +45,6 @@ const projectMeta: ProjectMeta[] = [
     category: 'backend',
     href: 'https://github.com/UsefulWeb/AmoCRM',
     githubRepo: 'UsefulWeb/AmoCRM',
-    hideLastCommitBadge: true,
   },
   { id: 'cryptobazar', category: 'backend' },
   { id: 's7-airlines', category: 'fullstack' },
