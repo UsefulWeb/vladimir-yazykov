@@ -639,7 +639,10 @@
         "solution": "Построил курс от Node.js/Express до Docker, тестирования и CI/CD с аттестацией.",
         "stack": ["Node.js", "Express", "TypeScript", "PostgreSQL"]
       }
-    }
+    },
+    "favoritesOnly": "Избранное",
+    "favorite": "В избранное",
+    "unfavorite": "Убрать из избранного"
   },
   "resume": {
     "metaTitlePrefix": "Резюме",

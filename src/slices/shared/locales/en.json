@@ -636,7 +636,10 @@
         "solution": "Built a course from Node.js/Express through Docker, testing, and CI/CD, with assessments.",
         "stack": ["Node.js", "Express", "TypeScript", "PostgreSQL"]
       }
-    }
+    },
+    "favoritesOnly": "Favorites",
+    "favorite": "Add to favorites",
+    "unfavorite": "Remove from favorites"
   },
   "resume": {
     "metaTitlePrefix": "Resume",

@@ -4,6 +4,8 @@ import {
   useProjectCategoryLabels,
   useProjects,
 } from '@entities'
+import { FavoriteButton, useFavoriteProjectsStore } from '@features'
+import StarIcon from '@mui/icons-material/Star'
 import Chip from '@mui/material/Chip'
 import Grid from '@mui/material/Grid'
 import Stack from '@mui/material/Stack'
@@ -27,13 +29,17 @@ type Filter = ProjectCategory | 'all'
 export function ProjectsPage() {
   const { t } = useTranslation()
   const [filter, setFilter] = useState<Filter>('all')
+  const [favoritesOnly, setFavoritesOnly] = useState(false)
   const projects = useProjects()
   const categoryLabels = useProjectCategoryLabels()
+  const favorites = useFavoriteProjectsStore((s) => s.favorites)
   const visibleCategories =
     filter === 'all' ? categoryOrder : categoryOrder.filter((c) => c === filter)
 
   const getProjectsByCategory = (category: ProjectCategory) =>
-    projects.filter((p) => p.category === category)
+    projects
+      .filter((p) => p.category === category)
+      .filter((p) => !favoritesOnly || favorites.includes(p.id))
 
   return (
     <>
@@ -80,6 +86,13 @@ export function ProjectsPage() {
               />
             )
           })}
+          <Chip
+            icon={<StarIcon fontSize="small" />}
+            label={`${t('projects.favoritesOnly')} (${favorites.length})`}
+            color={favoritesOnly ? 'primary' : 'default'}
+            variant={favoritesOnly ? 'filled' : 'outlined'}
+            onClick={() => setFavoritesOnly((v) => !v)}
+          />
         </Stack>
       </Section>
       {visibleCategories.map((category) => {
@@ -95,7 +108,11 @@ export function ProjectsPage() {
             <Grid container spacing={3}>
               {categoryProjects.map((p) => (
                 <Grid key={p.id} size={{ xs: 12, md: 6 }}>
-                  <ProjectCard project={p} expanded />
+                  <ProjectCard
+                    project={p}
+                    expanded
+                    actions={<FavoriteButton projectId={p.id} />}
+                  />
                 </Grid>
               ))}
             </Grid>

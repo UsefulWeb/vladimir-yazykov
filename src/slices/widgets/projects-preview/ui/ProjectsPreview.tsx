@@ -1,4 +1,5 @@
 import { ProjectCard, useProjects } from '@entities/project-card'
+import { FavoriteButton } from '@features'
 import Grid from '@mui/material/Grid'
 import Stack from '@mui/material/Stack'
 import { paths } from '@shared/config'
@@ -18,7 +19,10 @@ export function ProjectsPreview() {
         <Grid container spacing={3}>
           {projects.slice(0, 3).map((p) => (
             <Grid key={p.id} size={{ xs: 12, md: 4 }}>
-              <ProjectCard project={p} />
+              <ProjectCard
+                project={p}
+                actions={<FavoriteButton projectId={p.id} />}
+              />
             </Grid>
           ))}
         </Grid>

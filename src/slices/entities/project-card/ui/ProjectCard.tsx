@@ -1,18 +1,53 @@
+import StarIcon from '@mui/icons-material/Star'
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import Chip from '@mui/material/Chip'
 import Link from '@mui/material/Link'
+import Skeleton from '@mui/material/Skeleton'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
+import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { type Project, useProjectCategoryLabels } from '../model/projects'
+import { useGithubStats } from '../model/useGithubStats'
 
 interface ProjectCardProps {
   project: Project
   expanded?: boolean
+  actions?: ReactNode
 }
 
-export function ProjectCard({ project, expanded = false }: ProjectCardProps) {
+function GithubBadge({ repo }: { repo: string }) {
+  const { data, isLoading } = useGithubStats(repo)
+
+  if (isLoading) {
+    return <Skeleton variant="rounded" width={64} height={24} />
+  }
+
+  if (!data) return null
+
+  return (
+    <Link
+      href={`https://github.com/${repo}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      underline="none"
+    >
+      <Chip
+        icon={<StarIcon fontSize="small" />}
+        label={data.stars}
+        size="small"
+        variant="outlined"
+      />
+    </Link>
+  )
+}
+
+export function ProjectCard({
+  project,
+  expanded = false,
+  actions,
+}: ProjectCardProps) {
   const { t } = useTranslation()
   const categoryLabels = useProjectCategoryLabels()
 
@@ -20,13 +55,18 @@ export function ProjectCard({ project, expanded = false }: ProjectCardProps) {
     <Card variant="outlined" sx={{ height: '100%' }}>
       <CardContent>
         <Stack spacing={2}>
-          <Chip
-            label={categoryLabels[project.category]}
-            size="small"
-            color="primary"
-            variant="outlined"
-            sx={{ alignSelf: 'flex-start' }}
-          />
+          <Stack
+            direction="row"
+            sx={{ alignItems: 'center', justifyContent: 'space-between' }}
+          >
+            <Chip
+              label={categoryLabels[project.category]}
+              size="small"
+              color="primary"
+              variant="outlined"
+            />
+            {actions}
+          </Stack>
           <Typography variant="h6" component="h3">
             {project.href ? (
               <Link
@@ -44,19 +84,7 @@ export function ProjectCard({ project, expanded = false }: ProjectCardProps) {
           <Typography variant="body2" color="text.secondary">
             {project.tagline}
           </Typography>
-          {project.githubRepo && (
-            <a
-              href={`https://github.com/${project.githubRepo}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={`https://img.shields.io/github/stars/${project.githubRepo}?style=flat-square&logo=github`}
-                alt={`${project.githubRepo} stars`}
-                height={20}
-              />
-            </a>
-          )}
+          {project.githubRepo && <GithubBadge repo={project.githubRepo} />}
           {expanded && project.problem && (
             <Typography variant="body2">
               <strong>{t('projects.problemLabel')}:</strong> {project.problem}
