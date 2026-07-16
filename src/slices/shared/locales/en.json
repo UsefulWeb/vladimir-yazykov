@@ -112,14 +112,7 @@
       },
       "tools": {
         "title": "Tools",
-        "items": [
-          "Vite",
-          "Vitest",
-          "Playwright",
-          "Storybook",
-          "CI/CD",
-          "Biome"
-        ]
+        "items": ["Vite", "Vitest", "Playwright", "Storybook", "CI/CD", "Biome"]
       }
     },
     "openSourceTitle": "Open Source",
@@ -374,36 +367,18 @@
       "arkham-divider": {
         "title": "Arkham Divider",
         "tagline": "Online card-divider builder with WASM, PDF generation, and FSD",
-        "metrics": [
-          "8k visits/week",
-          "200 KB bundle",
-          "1500+ TS files"
-        ],
+        "metrics": ["8k visits/week", "200 KB bundle", "1500+ TS files"],
         "problem": "Complex in-browser PDF and image generation for a board game.",
         "solution": "Streaming PDF generation via vips-wasm, FSD architecture, i18n, CI/CD.",
-        "stack": [
-          "React",
-          "Vite",
-          "GraphQL",
-          "FSD",
-          "WASM"
-        ]
+        "stack": ["React", "Vite", "GraphQL", "FSD", "WASM"]
       },
       "arkham-investigator": {
         "title": "Arkham Investigator",
         "tagline": "React Native tracker with offline-first and a Rust module",
-        "metrics": [
-          "4500+ TS files",
-          "2.5k installs"
-        ],
+        "metrics": ["4500+ TS files", "2.5k installs"],
         "problem": "A mobile companion for a board game that needed to work offline.",
         "solution": "Offline-first, local multiplayer, native iOS/Rust modules.",
-        "stack": [
-          "React Native",
-          "Expo",
-          "GraphQL",
-          "Rust"
-        ]
+        "stack": ["React Native", "Expo", "GraphQL", "Rust"]
       },
       "amocrm": {
         "title": "AmoCRM npm Library",
@@ -411,11 +386,7 @@
         "metrics": [],
         "problem": "Typed integration with AmoCRM for Node.js projects.",
         "solution": "Full API typing, TSDoc, open source.",
-        "stack": [
-          "TypeScript",
-          "REST",
-          "OpenAPI"
-        ]
+        "stack": ["TypeScript", "REST", "OpenAPI"]
       },
       "cryptobazar": {
         "title": "Cryptobazar",
@@ -440,435 +411,247 @@
       "s7-airlines": {
         "title": "S7 Airlines — internal systems",
         "tagline": "3 corporate web apps on a custom PHP MVC engine",
-        "metrics": [
-          "3 applications",
-          "cut manager time by 3–4 hrs/day"
-        ],
+        "metrics": ["3 applications", "cut manager time by 3–4 hrs/day"],
         "problem": "Chaotic Excel file exchange and no digital dashboards for management decisions.",
         "solution": "Aircraft interior rating dashboard, risk classification system with record locking, business card builder.",
-        "stack": [
-          "PHP",
-          "jQuery",
-          "SQL"
-        ]
+        "stack": ["PHP", "jQuery", "SQL"]
       },
       "voice-social-network": {
         "title": "Add Egg",
         "tagline": "Clubhouse-style app — rooms and real-time audio comments",
-        "metrics": [
-          "tech lead, team of 2 developers"
-        ],
+        "metrics": ["tech lead, team of 2 developers"],
         "problem": "Needed a platform for communication via voice messages only.",
         "solution": "Room and user management, auth and roles, real-time backend logic.",
-        "stack": [
-          "Vue.js",
-          "Laravel"
-        ]
+        "stack": ["Vue.js", "Laravel"]
       },
       "gymnastics-federation": {
         "title": "International Aerial Gymnastics Federation",
         "tagline": "Online judging for competitions during the pandemic",
-        "metrics": [
-          "team of 9–14",
-          "real-time scoring"
-        ],
+        "metrics": ["team of 9–14", "real-time scoring"],
         "problem": "Competitions couldn't be held in person — needed live streaming and online scoring.",
         "solution": "A platform streaming performances from webcams with real-time judge scoring.",
-        "stack": [
-          "Vue.js",
-          "React",
-          "Laravel"
-        ]
+        "stack": ["Vue.js", "React", "Laravel"]
       },
       "yandex-practicum-league-alert": {
         "title": "Yandex Practicum — League Alert",
         "tagline": "Curated a team of 10 frontend developers on a student project",
-        "metrics": [
-          "team of 10",
-          "9 months of mentoring"
-        ],
+        "metrics": ["team of 10", "9 months of mentoring"],
         "problem": "The student team needed real engineering processes, not an imitation of them.",
         "solution": "Introduced a team-lead structure, peer review, and CI (GitLab/GitHub) for the League Alert nonprofit project.",
-        "stack": [
-          "React",
-          "process",
-          "code review"
-        ]
+        "stack": ["React", "process", "code review"]
       },
       "edtech": {
         "title": "EdTech — Netology",
         "tagline": "Expert / lead of educational programs",
-        "metrics": [
-          "150k+ students",
-          "10 courses",
-          "3,000+ homework reviews"
-        ],
+        "metrics": ["150k+ students", "10 courses", "3,000+ homework reviews"],
         "problem": "Large-scale frontend programs for thousands of students.",
         "solution": "Course authorship, review, and leading a team of 24 experts.",
-        "stack": [
-          "React",
-          "TypeScript",
-          "Next.js",
-          "methodology"
-        ]
+        "stack": ["React", "TypeScript", "Next.js", "methodology"]
       },
       "rudn": {
         "title": "RUDN University — «Digital Departments»",
         "tagline": "Course architect for a cohort of 3,000 students",
-        "metrics": [
-          "66 video lectures",
-          "~3,000-student cohort"
-        ],
+        "metrics": ["66 video lectures", "~3,000-student cohort"],
         "problem": "Students starting from scratch frequently missed classes and lost track of the course.",
         "solution": "Partially pre-filled coding assignments, built-in hints, a methodology resilient to missed classes.",
-        "stack": [
-          "methodology",
-          "video production"
-        ]
+        "stack": ["methodology", "video production"]
       },
       "ivr-vtb-tele2": {
         "title": "IVR for VTB and Tele2",
         "tagline": "Interfaces for managing voice menu scenarios (AVR/IVR)",
-        "metrics": [
-          "2 clients: VTB, Tele2"
-        ],
+        "metrics": ["2 clients: VTB, Tele2"],
         "problem": "A legacy AVR system needed frontend work for new clients.",
         "solution": "Built client-side logic for voice menu configuration and integrated it with the Java backend.",
-        "stack": [
-          "JavaScript",
-          "HTML/CSS",
-          "legacy Java integration"
-        ]
+        "stack": ["JavaScript", "HTML/CSS", "legacy Java integration"]
       },
       "multichainindex": {
         "title": "Multichainindex.com",
         "tagline": "A crypto project investment service built on Next.js",
-        "metrics": [
-          "Web3 auth",
-          "transactions from the frontend"
-        ],
+        "metrics": ["Web3 auth", "transactions from the frontend"],
         "problem": "Needed a crypto investment service without a separate backend for transactions.",
         "solution": "A React/Next.js app with Web3 wallet auth and direct frontend transactions.",
-        "stack": [
-          "React",
-          "Next.js",
-          "Web3"
-        ]
+        "stack": ["React", "Next.js", "Web3"]
       },
       "crosspack": {
         "title": "CrossPack",
         "tagline": "An interactive landing-page store for meal plans",
-        "metrics": [
-          "full frontend build"
-        ],
+        "metrics": ["full frontend build"],
         "problem": "Needed a convenient service for choosing and ordering weekly/monthly meal plans.",
         "solution": "Built an interactive order builder in React.",
-        "stack": [
-          "React"
-        ]
+        "stack": ["React"]
       },
       "chrome-extension-parser": {
         "title": "Google Chrome Extension",
         "tagline": "Offline DOM parser exporting to CSV/Excel/ZIP",
-        "metrics": [
-          "exports to CSV/Excel + ZIP"
-        ],
+        "metrics": ["exports to CSV/Excel + ZIP"],
         "problem": "Needed to quickly collect data tables (e.g. employee cards) from pages without manual copying.",
         "solution": "From 1–2 sample elements, the script finds similar DOM nodes and generates a table with images.",
-        "stack": [
-          "Vue.js",
-          "Chrome Extension API"
-        ]
+        "stack": ["Vue.js", "Chrome Extension API"]
       },
       "beast-minimap": {
         "title": "Interactive map for «Beast»",
         "tagline": "A pet project that became an official publisher tool",
-        "metrics": [
-          "officially recognized by the publisher"
-        ],
+        "metrics": ["officially recognized by the publisher"],
         "problem": "Board game players lacked a convenient way to track markers on the map.",
         "solution": "Built an interactive tool with multiple markers — the publisher included it in official add-ons.",
-        "stack": [
-          "JavaScript"
-        ]
+        "stack": ["JavaScript"]
       },
       "fintorg": {
         "title": "Fintorg",
         "tagline": "A government procurement tracking service",
-        "metrics": [
-          "FTP/XML parsing",
-          "email-based bot authorization"
-        ],
+        "metrics": ["FTP/XML parsing", "email-based bot authorization"],
         "problem": "Manually collecting legal and litigation history data on companies took a lot of time.",
         "solution": "A Node.js service for automatic authorization into «Kontur.Focus» plus FTP/XML tender parsing.",
-        "stack": [
-          "Node.js",
-          "PHP (Laravel)",
-          "FTP/XML"
-        ]
+        "stack": ["Node.js", "PHP (Laravel)", "FTP/XML"]
       },
       "radio-components-tracker": {
         "title": "Radio component tracking service",
         "tagline": "A caching API proxy in front of a slow external API",
-        "metrics": [
-          "removed connection limits",
-          "instant cached responses"
-        ],
+        "metrics": ["removed connection limits", "instant cached responses"],
         "problem": "The vendor's official API was slow and limited the number of connections.",
         "solution": "A middleware Node.js server collected and cached data for instant repeat responses.",
-        "stack": [
-          "Node.js",
-          "React"
-        ]
+        "stack": ["Node.js", "React"]
       },
       "telegram-redirector": {
         "title": "Telegram redirect service",
         "tagline": "A high-load redirect service to bypass blocks",
-        "metrics": [
-          "30k+ visits/day"
-        ],
+        "metrics": ["30k+ visits/day"],
         "problem": "Needed alternative access to Telegram during blocks, monetized via ads.",
         "solution": "A minimal high-load service in Vanilla JS with an ad-management admin panel.",
-        "stack": [
-          "Vanilla JS",
-          "Node.js",
-          "Laravel"
-        ]
+        "stack": ["Vanilla JS", "Node.js", "Laravel"]
       },
       "real-vision-studio": {
         "title": "Real Vision Studio — e-commerce and 3D configurators",
         "tagline": "Online stores and visual editors on a custom PHP engine",
-        "metrics": [
-          "3 projects: Tentorium, Triton Aqua, 3D furniture"
-        ],
+        "metrics": ["3 projects: Tentorium, Triton Aqua, 3D furniture"],
         "problem": "Standard engines of that era didn't support dynamic option editing or 3D previews.",
         "solution": "An async AJAX store, a visual JS product-option editor, and ActiveX integration for 3D furniture upholstery previews.",
-        "stack": [
-          "PHP",
-          "jQuery",
-          "AJAX",
-          "ActiveX"
-        ]
+        "stack": ["PHP", "jQuery", "AJAX", "ActiveX"]
       },
       "practical-psychology-university": {
         "title": "University of Practical Psychology",
         "tagline": "LMS, the «Psychologos» wiki encyclopedia, and the «Distance» module",
-        "metrics": [
-          "migrated Drupal → Yii2",
-          "OAuth2 REST API"
-        ],
+        "metrics": ["migrated Drupal → Yii2", "OAuth2 REST API"],
         "problem": "An outdated Drupal-based LMS didn't scale and lacked student cross-review.",
         "solution": "Rewrote the system, introduced cross-review, extended CKEditor, and shipped an OAuth2 REST API.",
-        "stack": [
-          "Yii2",
-          "CodeIgniter",
-          "Backbone.js",
-          "CKEditor"
-        ]
+        "stack": ["Yii2", "CodeIgniter", "Backbone.js", "CKEditor"]
       },
       "psychologi-online": {
         "title": "«Psychologists Online»",
         "tagline": "A forum with access gated by learning progress",
-        "metrics": [
-          "sole developer and co-founder"
-        ],
+        "metrics": ["sole developer and co-founder"],
         "problem": "Needed a platform where new topics unlock only after a mentor reviews the previous assignment.",
         "solution": "A custom forum on Yii2 that auto-unlocks branches based on passed assessments.",
-        "stack": [
-          "Yii/Yii2",
-          "PHP",
-          "SQL"
-        ]
+        "stack": ["Yii/Yii2", "PHP", "SQL"]
       },
       "moscow-property-department": {
         "title": "Moscow Property Department",
         "tagline": "A survey and voting system for residents",
-        "metrics": [
-          "government portal",
-          "results aggregation"
-        ],
+        "metrics": ["government portal", "results aggregation"],
         "problem": "Needed to integrate surveys and voting into existing government infrastructure.",
         "solution": "Built a survey platform with results aggregation and analytics.",
-        "stack": [
-          "PHP",
-          "jQuery",
-          "SQL"
-        ]
+        "stack": ["PHP", "jQuery", "SQL"]
       },
       "trenerskaya": {
         "title": "Trenerskaya",
         "tagline": "An online store for training programs",
-        "metrics": [
-          "Robokassa payment integration"
-        ],
+        "metrics": ["Robokassa payment integration"],
         "problem": "Needed a store with order management and payment acceptance.",
         "solution": "Implemented order management and Robokassa payment integration.",
-        "stack": [
-          "PHP (Yii2)",
-          "SQL",
-          "jQuery"
-        ]
+        "stack": ["PHP (Yii2)", "SQL", "jQuery"]
       },
       "video-lecture-schedule": {
         "title": "Video lecture scheduling system",
         "tagline": "Tracking mandatory broadcasts for factory employees",
-        "metrics": [
-          "time-limited content access",
-          "attendance tracking"
-        ],
+        "metrics": ["time-limited content access", "attendance tracking"],
         "problem": "Needed to manage a schedule of mandatory broadcasts and restrict access by time window.",
         "solution": "A schedule grid, unique time-limited links for lecturers, and pre/post-broadcast attendance tracking.",
-        "stack": [
-          "AngularJS",
-          "Node.js"
-        ]
+        "stack": ["AngularJS", "Node.js"]
       },
       "bonjoin": {
         "title": "Bonjoin",
         "tagline": "A services marketplace (like YouDo/Profi.ru)",
-        "metrics": [
-          "catalog and request improvements"
-        ],
+        "metrics": ["catalog and request improvements"],
         "problem": "An existing service-finder platform needed a simpler interface.",
         "solution": "Improved the provider catalog, search, and filtering.",
-        "stack": [
-          "PHP (Yii2)",
-          "SQL"
-        ]
+        "stack": ["PHP (Yii2)", "SQL"]
       },
       "antirabstvo": {
         "title": "Antirabstvo",
         "tagline": "A career consultant marketplace",
-        "metrics": [
-          "two-way contact confirmation"
-        ],
+        "metrics": ["two-way contact confirmation"],
         "problem": "Needed a marketplace for matching clients with career consultants, with paid contact access.",
         "solution": "A filterable catalog, a mutual-interest confirmation mechanism, and a personal dashboard.",
-        "stack": [
-          "Laravel",
-          "PHP",
-          "SQL"
-        ]
+        "stack": ["Laravel", "PHP", "SQL"]
       },
       "own-web-studio": {
         "title": "My own web studio",
         "tagline": "A flexible team of 9–14 people: pet and Web3 products",
-        "metrics": [
-          "team of 9–14",
-          "5 years of management"
-        ],
+        "metrics": ["team of 9–14", "5 years of management"],
         "problem": "Needed to build a full-cycle studio for high-load and Web3 products.",
         "solution": "Assembled and led a flexible team of markup, frontend/backend developers, and QA/PM.",
-        "stack": [
-          "process",
-          "Git",
-          "CI/CD",
-          "hiring"
-        ]
+        "stack": ["process", "Git", "CI/CD", "hiring"]
       },
       "fiztekh-union": {
         "title": "FizTech College / UniOn",
         "tagline": "In-person web development teaching for schoolchildren",
-        "metrics": [
-          "80%+ retention against a 70% target"
-        ],
+        "metrics": ["80%+ retention against a 70% target"],
         "problem": "The web development program was weak and didn't prepare students for the real market.",
         "solution": "Proactively reworked the program around applied skills — some students went on into the profession.",
-        "stack": [
-          "HTML/CSS/JS/PHP",
-          "methodology"
-        ]
+        "stack": ["HTML/CSS/JS/PHP", "methodology"]
       },
       "geekbrains": {
         "title": "GeekBrains",
         "tagline": "Mass online courses run under Mail.ru Group",
-        "metrics": [
-          "up to 10,000 students/cohort",
-          "4.8–4.9 rating"
-        ],
+        "metrics": ["up to 10,000 students/cohort", "4.8–4.9 rating"],
         "problem": "A mass beginner audience needed a resilient methodology under high stress and strict KPIs.",
         "solution": "Led cohorts of up to 10,000 students, keeping the rating above the platform's cutoff.",
-        "stack": [
-          "HTML/CSS",
-          "JavaScript",
-          "PHP"
-        ]
+        "stack": ["HTML/CSS", "JavaScript", "PHP"]
       },
       "skolkovo": {
         "title": "Skolkovo",
         "tagline": "Accelerator program tracker for startups",
-        "metrics": [
-          "2-day acceleration"
-        ],
+        "metrics": ["2-day acceleration"],
         "problem": "Teams of schoolchildren and students needed expert refinement of startup ideas before pitching.",
         "solution": "Mentored the group, assessed technical feasibility, and estimated MVP development cost.",
-        "stack": [
-          "mentoring",
-          "MVP assessment"
-        ]
+        "stack": ["mentoring", "MVP assessment"]
       },
       "tel-ran": {
         "title": "Tel-Ran",
         "tagline": "Full-cycle bootcamp for expats in Germany",
-        "metrics": [
-          "group of 9",
-          "zero to diploma"
-        ],
+        "metrics": ["group of 9", "zero to diploma"],
         "problem": "Russian-speaking expats needed intensive retraining for the German job market.",
         "solution": "Ran an intensive 3 hours, 4 days a week — the whole group defended their capstone projects.",
-        "stack": [
-          "HTML/CSS/JS",
-          "“do as I do” methodology"
-        ]
+        "stack": ["HTML/CSS/JS", "“do as I do” methodology"]
       },
       "edutoria": {
         "title": "Edutoria (Sber)",
         "tagline": "Subject Matter Expert for a web development course",
-        "metrics": [
-          "3 course modules"
-        ],
+        "metrics": ["3 course modules"],
         "problem": "Needed expert validation of learning outcomes in a product-oriented EdTech team.",
         "solution": "Wrote lessons and assignments, validated Learning Outcomes, worked Scrum with a methodologist and editor.",
-        "stack": [
-          "methodology",
-          "Scrum"
-        ]
+        "stack": ["methodology", "Scrum"]
       },
       "tutorplace": {
         "title": "TutorPlace",
         "tagline": "Learning path architect for web development",
-        "metrics": [
-          "4 educational programs"
-        ],
+        "metrics": ["4 educational programs"],
         "problem": "The platform needed structured programs to launch and scale.",
         "solution": "Designed 4 programs, from learning paths to students' practical outcomes.",
-        "stack": [
-          "methodology",
-          "program design"
-        ]
+        "stack": ["methodology", "program design"]
       },
       "innopolis": {
         "title": "Innopolis University",
         "tagline": "A «zero to production» Fullstack program on Node.js",
-        "metrics": [
-          "64 academic hours"
-        ],
+        "metrics": ["64 academic hours"],
         "problem": "Developers with basic training lacked hands-on production backend experience.",
         "solution": "Built a course from Node.js/Express through Docker, testing, and CI/CD, with assessments.",
-        "stack": [
-          "Node.js",
-          "Express",
-          "TypeScript",
-          "PostgreSQL"
-        ]
+        "stack": ["Node.js", "Express", "TypeScript", "PostgreSQL"]
       },
       "ai-audio-transcriber": {
         "title": "AI Audio Transcriber",
         "tagline": "A desktop app for automatic audio transcription",
-        "metrics": [
-          "Whisper + GigaAM",
-          "pipeline via Telegram Bot API"
-        ],
+        "metrics": ["Whisper + GigaAM", "pipeline via Telegram Bot API"],
         "stack": [
           "Electron",
           "React",
