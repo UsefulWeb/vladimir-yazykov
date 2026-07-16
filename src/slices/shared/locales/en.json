@@ -75,7 +75,7 @@
   },
   "about": {
     "metaTitle": "About",
-    "bio": "Senior Frontend Engineer with 16+ years of commercial experience. I specialize in complex web interfaces, React/TypeScript applications, frontend system design, and building engineering processes. Worked with S7, VTB, Tele2, and EdTech companies.",
+    "bio": "Senior Frontend Engineer with 19+ years of commercial experience, 10+ of them with React and TypeScript. I specialize in complex web interfaces, high-load SPA/SSR applications, frontend system design, and building engineering processes. Worked with S7, VTB, Tele2, Sber (Edutoria), and EdTech companies.",
     "skillsTitle": "Skills",
     "skillGroups": {
       "frontend": {
@@ -112,7 +112,14 @@
       },
       "tools": {
         "title": "Tools",
-        "items": ["Vite", "Vitest", "Playwright", "Storybook", "CI/CD", "Biome"]
+        "items": [
+          "Vite",
+          "Vitest",
+          "Playwright",
+          "Storybook",
+          "CI/CD",
+          "Biome"
+        ]
       }
     },
     "openSourceTitle": "Open Source",
@@ -367,274 +374,512 @@
       "arkham-divider": {
         "title": "Arkham Divider",
         "tagline": "Online card-divider builder with WASM, PDF generation, and FSD",
-        "metrics": ["8k visits/week", "200 KB bundle", "1500+ TS files"],
+        "metrics": [
+          "8k visits/week",
+          "200 KB bundle",
+          "1500+ TS files"
+        ],
         "problem": "Complex in-browser PDF and image generation for a board game.",
         "solution": "Streaming PDF generation via vips-wasm, FSD architecture, i18n, CI/CD.",
-        "stack": ["React", "Vite", "GraphQL", "FSD", "WASM"]
+        "stack": [
+          "React",
+          "Vite",
+          "GraphQL",
+          "FSD",
+          "WASM"
+        ]
       },
       "arkham-investigator": {
         "title": "Arkham Investigator",
         "tagline": "React Native tracker with offline-first and a Rust module",
-        "metrics": ["4500+ TS files", "2.5k installs"],
+        "metrics": [
+          "4500+ TS files",
+          "2.5k installs"
+        ],
         "problem": "A mobile companion for a board game that needed to work offline.",
         "solution": "Offline-first, local multiplayer, native iOS/Rust modules.",
-        "stack": ["React Native", "Expo", "GraphQL", "Rust"]
+        "stack": [
+          "React Native",
+          "Expo",
+          "GraphQL",
+          "Rust"
+        ]
       },
       "amocrm": {
         "title": "AmoCRM npm Library",
         "tagline": "TypeScript library for the AmoCRM REST API",
-        "metrics": ["187 ⭐ on GitHub"],
+        "metrics": [],
         "problem": "Typed integration with AmoCRM for Node.js projects.",
         "solution": "Full API typing, TSDoc, open source.",
-        "stack": ["TypeScript", "REST", "OpenAPI"]
+        "stack": [
+          "TypeScript",
+          "REST",
+          "OpenAPI"
+        ]
       },
       "cryptobazar": {
-        "title": "CryptoBazar API",
-        "tagline": "Investor API Dashboard — a caching Node.js backend",
-        "metrics": ["60x faster response", "10–15 min cache"],
-        "problem": "Direct requests to a huge Google Sheet were slowing down portfolio composition data.",
-        "solution": "Rewrote the backend with pre-caching; rewrote the frontend in plain Vanilla JS (ES6).",
-        "stack": ["Node.js", "Google Sheets API", "REST"]
+        "title": "Cryptobazar",
+        "tagline": "A crypto market investment platform with real-time analytics",
+        "metrics": [
+          "6 years of development",
+          "60x faster API",
+          "owned frontend + backend"
+        ],
+        "stack": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Redux Toolkit",
+          "Node.js",
+          "WebSocket",
+          "Web3"
+        ],
+        "problem": "Needed a high-load investment platform with real-time crypto market analytics on top of a slow legacy backend.",
+        "solution": "Designed the frontend architecture on React/Next.js/Redux Toolkit, rewrote the Node.js backend with caching (60x faster), added WebSocket aggregation and Web3 authentication."
       },
       "s7-airlines": {
         "title": "S7 Airlines — internal systems",
         "tagline": "3 corporate web apps on a custom PHP MVC engine",
-        "metrics": ["3 applications", "cut manager time by 3–4 hrs/day"],
+        "metrics": [
+          "3 applications",
+          "cut manager time by 3–4 hrs/day"
+        ],
         "problem": "Chaotic Excel file exchange and no digital dashboards for management decisions.",
         "solution": "Aircraft interior rating dashboard, risk classification system with record locking, business card builder.",
-        "stack": ["PHP", "jQuery", "SQL"]
+        "stack": [
+          "PHP",
+          "jQuery",
+          "SQL"
+        ]
       },
       "voice-social-network": {
         "title": "Add Egg",
         "tagline": "Clubhouse-style app — rooms and real-time audio comments",
-        "metrics": ["tech lead, team of 2 developers"],
+        "metrics": [
+          "tech lead, team of 2 developers"
+        ],
         "problem": "Needed a platform for communication via voice messages only.",
         "solution": "Room and user management, auth and roles, real-time backend logic.",
-        "stack": ["Vue.js", "Laravel"]
+        "stack": [
+          "Vue.js",
+          "Laravel"
+        ]
       },
       "gymnastics-federation": {
         "title": "International Aerial Gymnastics Federation",
         "tagline": "Online judging for competitions during the pandemic",
-        "metrics": ["team of 9–14", "real-time scoring"],
+        "metrics": [
+          "team of 9–14",
+          "real-time scoring"
+        ],
         "problem": "Competitions couldn't be held in person — needed live streaming and online scoring.",
         "solution": "A platform streaming performances from webcams with real-time judge scoring.",
-        "stack": ["Vue.js", "React", "Laravel"]
+        "stack": [
+          "Vue.js",
+          "React",
+          "Laravel"
+        ]
       },
       "yandex-practicum-league-alert": {
         "title": "Yandex Practicum — League Alert",
         "tagline": "Curated a team of 10 frontend developers on a student project",
-        "metrics": ["team of 10", "9 months of mentoring"],
+        "metrics": [
+          "team of 10",
+          "9 months of mentoring"
+        ],
         "problem": "The student team needed real engineering processes, not an imitation of them.",
         "solution": "Introduced a team-lead structure, peer review, and CI (GitLab/GitHub) for the League Alert nonprofit project.",
-        "stack": ["React", "process", "code review"]
+        "stack": [
+          "React",
+          "process",
+          "code review"
+        ]
       },
       "edtech": {
         "title": "EdTech — Netology",
         "tagline": "Expert / lead of educational programs",
-        "metrics": ["150k+ students", "10 courses", "3,000+ homework reviews"],
+        "metrics": [
+          "150k+ students",
+          "10 courses",
+          "3,000+ homework reviews"
+        ],
         "problem": "Large-scale frontend programs for thousands of students.",
         "solution": "Course authorship, review, and leading a team of 24 experts.",
-        "stack": ["React", "TypeScript", "Next.js", "methodology"]
+        "stack": [
+          "React",
+          "TypeScript",
+          "Next.js",
+          "methodology"
+        ]
       },
       "rudn": {
         "title": "RUDN University — «Digital Departments»",
         "tagline": "Course architect for a cohort of 3,000 students",
-        "metrics": ["66 video lectures", "~3,000-student cohort"],
+        "metrics": [
+          "66 video lectures",
+          "~3,000-student cohort"
+        ],
         "problem": "Students starting from scratch frequently missed classes and lost track of the course.",
         "solution": "Partially pre-filled coding assignments, built-in hints, a methodology resilient to missed classes.",
-        "stack": ["methodology", "video production"]
+        "stack": [
+          "methodology",
+          "video production"
+        ]
       },
       "ivr-vtb-tele2": {
         "title": "IVR for VTB and Tele2",
         "tagline": "Interfaces for managing voice menu scenarios (AVR/IVR)",
-        "metrics": ["2 clients: VTB, Tele2"],
+        "metrics": [
+          "2 clients: VTB, Tele2"
+        ],
         "problem": "A legacy AVR system needed frontend work for new clients.",
         "solution": "Built client-side logic for voice menu configuration and integrated it with the Java backend.",
-        "stack": ["JavaScript", "HTML/CSS", "legacy Java integration"]
+        "stack": [
+          "JavaScript",
+          "HTML/CSS",
+          "legacy Java integration"
+        ]
       },
       "multichainindex": {
         "title": "Multichainindex.com",
         "tagline": "A crypto project investment service built on Next.js",
-        "metrics": ["Web3 auth", "transactions from the frontend"],
+        "metrics": [
+          "Web3 auth",
+          "transactions from the frontend"
+        ],
         "problem": "Needed a crypto investment service without a separate backend for transactions.",
         "solution": "A React/Next.js app with Web3 wallet auth and direct frontend transactions.",
-        "stack": ["React", "Next.js", "Web3"]
+        "stack": [
+          "React",
+          "Next.js",
+          "Web3"
+        ]
       },
       "crosspack": {
         "title": "CrossPack",
         "tagline": "An interactive landing-page store for meal plans",
-        "metrics": ["full frontend build"],
+        "metrics": [
+          "full frontend build"
+        ],
         "problem": "Needed a convenient service for choosing and ordering weekly/monthly meal plans.",
         "solution": "Built an interactive order builder in React.",
-        "stack": ["React"]
+        "stack": [
+          "React"
+        ]
       },
       "chrome-extension-parser": {
         "title": "Google Chrome Extension",
         "tagline": "Offline DOM parser exporting to CSV/Excel/ZIP",
-        "metrics": ["exports to CSV/Excel + ZIP"],
+        "metrics": [
+          "exports to CSV/Excel + ZIP"
+        ],
         "problem": "Needed to quickly collect data tables (e.g. employee cards) from pages without manual copying.",
         "solution": "From 1–2 sample elements, the script finds similar DOM nodes and generates a table with images.",
-        "stack": ["Vue.js", "Chrome Extension API"]
+        "stack": [
+          "Vue.js",
+          "Chrome Extension API"
+        ]
       },
       "beast-minimap": {
         "title": "Interactive map for «Beast»",
         "tagline": "A pet project that became an official publisher tool",
-        "metrics": ["officially recognized by the publisher"],
+        "metrics": [
+          "officially recognized by the publisher"
+        ],
         "problem": "Board game players lacked a convenient way to track markers on the map.",
         "solution": "Built an interactive tool with multiple markers — the publisher included it in official add-ons.",
-        "stack": ["JavaScript"]
+        "stack": [
+          "JavaScript"
+        ]
       },
       "fintorg": {
         "title": "Fintorg",
         "tagline": "A government procurement tracking service",
-        "metrics": ["FTP/XML parsing", "email-based bot authorization"],
+        "metrics": [
+          "FTP/XML parsing",
+          "email-based bot authorization"
+        ],
         "problem": "Manually collecting legal and litigation history data on companies took a lot of time.",
         "solution": "A Node.js service for automatic authorization into «Kontur.Focus» plus FTP/XML tender parsing.",
-        "stack": ["Node.js", "PHP (Laravel)", "FTP/XML"]
+        "stack": [
+          "Node.js",
+          "PHP (Laravel)",
+          "FTP/XML"
+        ]
       },
       "radio-components-tracker": {
         "title": "Radio component tracking service",
         "tagline": "A caching API proxy in front of a slow external API",
-        "metrics": ["removed connection limits", "instant cached responses"],
+        "metrics": [
+          "removed connection limits",
+          "instant cached responses"
+        ],
         "problem": "The vendor's official API was slow and limited the number of connections.",
         "solution": "A middleware Node.js server collected and cached data for instant repeat responses.",
-        "stack": ["Node.js", "React"]
+        "stack": [
+          "Node.js",
+          "React"
+        ]
       },
       "telegram-redirector": {
         "title": "Telegram redirect service",
         "tagline": "A high-load redirect service to bypass blocks",
-        "metrics": ["30k+ visits/day"],
+        "metrics": [
+          "30k+ visits/day"
+        ],
         "problem": "Needed alternative access to Telegram during blocks, monetized via ads.",
         "solution": "A minimal high-load service in Vanilla JS with an ad-management admin panel.",
-        "stack": ["Vanilla JS", "Node.js", "Laravel"]
+        "stack": [
+          "Vanilla JS",
+          "Node.js",
+          "Laravel"
+        ]
       },
       "real-vision-studio": {
         "title": "Real Vision Studio — e-commerce and 3D configurators",
         "tagline": "Online stores and visual editors on a custom PHP engine",
-        "metrics": ["3 projects: Tentorium, Triton Aqua, 3D furniture"],
+        "metrics": [
+          "3 projects: Tentorium, Triton Aqua, 3D furniture"
+        ],
         "problem": "Standard engines of that era didn't support dynamic option editing or 3D previews.",
         "solution": "An async AJAX store, a visual JS product-option editor, and ActiveX integration for 3D furniture upholstery previews.",
-        "stack": ["PHP", "jQuery", "AJAX", "ActiveX"]
+        "stack": [
+          "PHP",
+          "jQuery",
+          "AJAX",
+          "ActiveX"
+        ]
       },
       "practical-psychology-university": {
         "title": "University of Practical Psychology",
         "tagline": "LMS, the «Psychologos» wiki encyclopedia, and the «Distance» module",
-        "metrics": ["migrated Drupal → Yii2", "OAuth2 REST API"],
+        "metrics": [
+          "migrated Drupal → Yii2",
+          "OAuth2 REST API"
+        ],
         "problem": "An outdated Drupal-based LMS didn't scale and lacked student cross-review.",
         "solution": "Rewrote the system, introduced cross-review, extended CKEditor, and shipped an OAuth2 REST API.",
-        "stack": ["Yii2", "CodeIgniter", "Backbone.js", "CKEditor"]
+        "stack": [
+          "Yii2",
+          "CodeIgniter",
+          "Backbone.js",
+          "CKEditor"
+        ]
       },
       "psychologi-online": {
         "title": "«Psychologists Online»",
         "tagline": "A forum with access gated by learning progress",
-        "metrics": ["sole developer and co-founder"],
+        "metrics": [
+          "sole developer and co-founder"
+        ],
         "problem": "Needed a platform where new topics unlock only after a mentor reviews the previous assignment.",
         "solution": "A custom forum on Yii2 that auto-unlocks branches based on passed assessments.",
-        "stack": ["Yii/Yii2", "PHP", "SQL"]
+        "stack": [
+          "Yii/Yii2",
+          "PHP",
+          "SQL"
+        ]
       },
       "moscow-property-department": {
         "title": "Moscow Property Department",
         "tagline": "A survey and voting system for residents",
-        "metrics": ["government portal", "results aggregation"],
+        "metrics": [
+          "government portal",
+          "results aggregation"
+        ],
         "problem": "Needed to integrate surveys and voting into existing government infrastructure.",
         "solution": "Built a survey platform with results aggregation and analytics.",
-        "stack": ["PHP", "jQuery", "SQL"]
+        "stack": [
+          "PHP",
+          "jQuery",
+          "SQL"
+        ]
       },
       "trenerskaya": {
         "title": "Trenerskaya",
         "tagline": "An online store for training programs",
-        "metrics": ["Robokassa payment integration"],
+        "metrics": [
+          "Robokassa payment integration"
+        ],
         "problem": "Needed a store with order management and payment acceptance.",
         "solution": "Implemented order management and Robokassa payment integration.",
-        "stack": ["PHP (Yii2)", "SQL", "jQuery"]
+        "stack": [
+          "PHP (Yii2)",
+          "SQL",
+          "jQuery"
+        ]
       },
       "video-lecture-schedule": {
         "title": "Video lecture scheduling system",
         "tagline": "Tracking mandatory broadcasts for factory employees",
-        "metrics": ["time-limited content access", "attendance tracking"],
+        "metrics": [
+          "time-limited content access",
+          "attendance tracking"
+        ],
         "problem": "Needed to manage a schedule of mandatory broadcasts and restrict access by time window.",
         "solution": "A schedule grid, unique time-limited links for lecturers, and pre/post-broadcast attendance tracking.",
-        "stack": ["AngularJS", "Node.js"]
+        "stack": [
+          "AngularJS",
+          "Node.js"
+        ]
       },
       "bonjoin": {
         "title": "Bonjoin",
         "tagline": "A services marketplace (like YouDo/Profi.ru)",
-        "metrics": ["catalog and request improvements"],
+        "metrics": [
+          "catalog and request improvements"
+        ],
         "problem": "An existing service-finder platform needed a simpler interface.",
         "solution": "Improved the provider catalog, search, and filtering.",
-        "stack": ["PHP (Yii2)", "SQL"]
+        "stack": [
+          "PHP (Yii2)",
+          "SQL"
+        ]
       },
       "antirabstvo": {
         "title": "Antirabstvo",
         "tagline": "A career consultant marketplace",
-        "metrics": ["two-way contact confirmation"],
+        "metrics": [
+          "two-way contact confirmation"
+        ],
         "problem": "Needed a marketplace for matching clients with career consultants, with paid contact access.",
         "solution": "A filterable catalog, a mutual-interest confirmation mechanism, and a personal dashboard.",
-        "stack": ["Laravel", "PHP", "SQL"]
+        "stack": [
+          "Laravel",
+          "PHP",
+          "SQL"
+        ]
       },
       "own-web-studio": {
         "title": "My own web studio",
         "tagline": "A flexible team of 9–14 people: pet and Web3 products",
-        "metrics": ["team of 9–14", "5 years of management"],
+        "metrics": [
+          "team of 9–14",
+          "5 years of management"
+        ],
         "problem": "Needed to build a full-cycle studio for high-load and Web3 products.",
         "solution": "Assembled and led a flexible team of markup, frontend/backend developers, and QA/PM.",
-        "stack": ["process", "Git", "CI/CD", "hiring"]
+        "stack": [
+          "process",
+          "Git",
+          "CI/CD",
+          "hiring"
+        ]
       },
       "fiztekh-union": {
         "title": "FizTech College / UniOn",
         "tagline": "In-person web development teaching for schoolchildren",
-        "metrics": ["80%+ retention against a 70% target"],
+        "metrics": [
+          "80%+ retention against a 70% target"
+        ],
         "problem": "The web development program was weak and didn't prepare students for the real market.",
         "solution": "Proactively reworked the program around applied skills — some students went on into the profession.",
-        "stack": ["HTML/CSS/JS/PHP", "methodology"]
+        "stack": [
+          "HTML/CSS/JS/PHP",
+          "methodology"
+        ]
       },
       "geekbrains": {
         "title": "GeekBrains",
         "tagline": "Mass online courses run under Mail.ru Group",
-        "metrics": ["up to 10,000 students/cohort", "4.8–4.9 rating"],
+        "metrics": [
+          "up to 10,000 students/cohort",
+          "4.8–4.9 rating"
+        ],
         "problem": "A mass beginner audience needed a resilient methodology under high stress and strict KPIs.",
         "solution": "Led cohorts of up to 10,000 students, keeping the rating above the platform's cutoff.",
-        "stack": ["HTML/CSS", "JavaScript", "PHP"]
+        "stack": [
+          "HTML/CSS",
+          "JavaScript",
+          "PHP"
+        ]
       },
       "skolkovo": {
         "title": "Skolkovo",
         "tagline": "Accelerator program tracker for startups",
-        "metrics": ["2-day acceleration"],
+        "metrics": [
+          "2-day acceleration"
+        ],
         "problem": "Teams of schoolchildren and students needed expert refinement of startup ideas before pitching.",
         "solution": "Mentored the group, assessed technical feasibility, and estimated MVP development cost.",
-        "stack": ["mentoring", "MVP assessment"]
+        "stack": [
+          "mentoring",
+          "MVP assessment"
+        ]
       },
       "tel-ran": {
         "title": "Tel-Ran",
         "tagline": "Full-cycle bootcamp for expats in Germany",
-        "metrics": ["group of 9", "zero to diploma"],
+        "metrics": [
+          "group of 9",
+          "zero to diploma"
+        ],
         "problem": "Russian-speaking expats needed intensive retraining for the German job market.",
         "solution": "Ran an intensive 3 hours, 4 days a week — the whole group defended their capstone projects.",
-        "stack": ["HTML/CSS/JS", "“do as I do” methodology"]
+        "stack": [
+          "HTML/CSS/JS",
+          "“do as I do” methodology"
+        ]
       },
       "edutoria": {
         "title": "Edutoria (Sber)",
         "tagline": "Subject Matter Expert for a web development course",
-        "metrics": ["3 course modules"],
+        "metrics": [
+          "3 course modules"
+        ],
         "problem": "Needed expert validation of learning outcomes in a product-oriented EdTech team.",
         "solution": "Wrote lessons and assignments, validated Learning Outcomes, worked Scrum with a methodologist and editor.",
-        "stack": ["methodology", "Scrum"]
+        "stack": [
+          "methodology",
+          "Scrum"
+        ]
       },
       "tutorplace": {
         "title": "TutorPlace",
         "tagline": "Learning path architect for web development",
-        "metrics": ["4 educational programs"],
+        "metrics": [
+          "4 educational programs"
+        ],
         "problem": "The platform needed structured programs to launch and scale.",
         "solution": "Designed 4 programs, from learning paths to students' practical outcomes.",
-        "stack": ["methodology", "program design"]
+        "stack": [
+          "methodology",
+          "program design"
+        ]
       },
       "innopolis": {
         "title": "Innopolis University",
         "tagline": "A «zero to production» Fullstack program on Node.js",
-        "metrics": ["64 academic hours"],
+        "metrics": [
+          "64 academic hours"
+        ],
         "problem": "Developers with basic training lacked hands-on production backend experience.",
         "solution": "Built a course from Node.js/Express through Docker, testing, and CI/CD, with assessments.",
-        "stack": ["Node.js", "Express", "TypeScript", "PostgreSQL"]
+        "stack": [
+          "Node.js",
+          "Express",
+          "TypeScript",
+          "PostgreSQL"
+        ]
+      },
+      "ai-audio-transcriber": {
+        "title": "AI Audio Transcriber",
+        "tagline": "A desktop app for automatic audio transcription",
+        "metrics": [
+          "Whisper + GigaAM",
+          "pipeline via Telegram Bot API"
+        ],
+        "stack": [
+          "Electron",
+          "React",
+          "TypeScript",
+          "Python",
+          "Whisper",
+          "GigaAM",
+          "Telegram Bot API"
+        ],
+        "problem": "Needed a single tool to automatically transcribe voice messages into text.",
+        "solution": "Built a desktop app on Electron with a Python backend for Whisper and GigaAM ASR model inference, set up audio ingestion via a Telegram bot."
       }
     },
     "favoritesOnly": "Favorites",
@@ -661,49 +906,64 @@
     "roles": {
       "frontend": {
         "title": "Frontend Developer",
-        "tagline": "React, TypeScript, Next.js — production experience since 2007",
-        "summary": "Frontend engineer and architect with 18+ years of commercial web development, most of it focused on client-side applications. I design SPAs and FSD architectures, optimize performance, and lead frontend for S7, VTB, Tele2, and EdTech platforms.",
+        "tagline": "React, TypeScript, Next.js — 10+ years in production, in web since 2007",
+        "summary": "Frontend engineer and architect with 19+ years of commercial development and 10+ years with React/TypeScript. I design high-load SPA/SSR applications, optimize performance, and revive legacy systems. Worked with S7, VTB, Tele2, Sber (Edutoria), and EdTech platforms.",
         "skills": [
           "React",
           "TypeScript",
           "Next.js",
-          "JavaScript",
+          "JavaScript (ES6+)",
           "Redux Toolkit",
-          "GraphQL (client)",
-          "FSD",
+          "RTK Query",
           "SSR/SSG",
           "Vite",
+          "Atomic Design",
+          "CSS Modules",
+          "BEM",
+          "Framer Motion",
           "Vitest",
-          "Playwright",
-          "Storybook",
-          "Ant Design",
-          "Material UI"
+          "Playwright"
         ],
         "experience": [
+          {
+            "company": "Cryptobazar",
+            "companyLine": "A crypto market investment platform with real-time analytics",
+            "location": "Remote",
+            "role": "Senior Frontend Engineer / Frontend Architect",
+            "period": "September 2019 – September 2025",
+            "mission": "Designed and grew the frontend architecture of a high-load investment platform over 6 years.",
+            "bullets": [
+              "Designed the architecture on React/Next.js/TypeScript, separating server and UI state (Redux Toolkit) to simplify caching and module scaling.",
+              "Built a component structure on Atomic Design with CSS Modules and BEM, easing UI reuse and design-system growth; animations on Framer Motion.",
+              "Reduced interface latency by implementing streaming WebSocket data aggregation and caching.",
+              "Integrated Web3 authentication and transaction execution directly from the frontend.",
+              "Optimized performance for large datasets: list virtualization, memoization, code splitting."
+            ]
+          },
+          {
+            "company": "Eland",
+            "companyLine": "Corporate systems and education platforms, external technical lead",
+            "location": "Moscow, Russia",
+            "role": "Technical Lead / Fullstack Developer",
+            "period": "January 2016 – January 2020",
+            "mission": "Migrated legacy interfaces to React/Vue without stopping development; designed new modules.",
+            "bullets": [
+              "Ran a gradual migration of legacy jQuery interfaces to React and Vue without stopping business processes.",
+              "Designed and shipped an LMS platform with video courses, time-limited content access, and learning analytics.",
+              "Introduced code review standards and regular architecture discussions within the team."
+            ]
+          },
           {
             "company": "Arkham Divider / Arkham Investigator",
             "companyLine": "Pet projects in production for a board game",
             "location": "Remote",
             "role": "Frontend Architect / Developer",
-            "period": "2022 – 2023",
+            "period": "2022 – present",
             "mission": "Designed and built two production apps from scratch on an FSD architecture for thousands of users.",
             "bullets": [
               "Cut the initial bundle to 200 KB across 1500+ TS files via code splitting and lazy loading.",
-              "Implemented streaming PDF and image generation (300–1200 DPI) in the browser using vips-wasm and SharedArrayBuffer.",
-              "Sped up repository builds 2x by writing a custom dependency parser."
-            ]
-          },
-          {
-            "company": "Multichainindex.com",
-            "companyLine": "A crypto project investment service",
-            "location": "Remote",
-            "role": "Frontend Developer",
-            "period": "2023",
-            "mission": "Built a client-side React/Next.js app with direct Web3 transactions and no backend intermediary.",
-            "bullets": [
-              "Implemented Web3 wallet authentication, removing the need for a separate backend for operations.",
-              "Implemented transaction execution directly from the frontend on Next.js.",
-              "Ensured stable SPA performance under real-time investment operation load."
+              "Implemented streaming PDF and image generation in the browser using WebAssembly (vips-wasm).",
+              "Integrated a Rust probability-calculation module and a native iOS module in the second app."
             ]
           },
           {
@@ -715,8 +975,7 @@
             "mission": "Built the client side of a live-streaming and real-time scoring system during the pandemic.",
             "bullets": [
               "Built a real-time scoring interface in Vue.js and React for the judging panel.",
-              "Ensured uninterrupted interface performance during simultaneous webcam streams from participants.",
-              "Worked in a team of up to 14 people under tight deadlines — competitions couldn't be postponed."
+              "Ensured uninterrupted interface performance during simultaneous webcam streams from participants."
             ]
           }
         ]
@@ -724,7 +983,7 @@
       "backend": {
         "title": "Backend Developer",
         "tagline": "Node.js, NestJS, PHP/Laravel — APIs, integrations, performance",
-        "summary": "18+ years of commercial development, a significant part of it in backend systems: from custom PHP MVC engines to Node.js/NestJS APIs. Designed internal corporate systems for S7 Airlines, IVR integrations for VTB and Tele2, and high-load Node.js services.",
+        "summary": "19+ years of commercial development, a significant part in backend systems and integrations: from custom PHP MVC engines to Node.js APIs. Sped up service response times by tens of times; designed internal systems for S7 Airlines.",
         "skills": [
           "Node.js",
           "NestJS",
@@ -733,39 +992,39 @@
           "Laravel",
           "Yii2",
           "REST",
-          "GraphQL (server)",
+          "GraphQL",
           "PostgreSQL",
           "MySQL",
           "Redis",
-          "RabbitMQ",
           "OAuth2",
           "JWT",
-          "RBAC"
+          "RBAC",
+          "WebSocket"
         ],
         "experience": [
           {
-            "company": "CryptoBazar",
+            "company": "Cryptobazar",
             "companyLine": "Investor API Dashboard — a crypto investment service",
             "location": "Remote",
             "role": "Backend Developer / Performance Architect",
-            "period": "2022",
-            "mission": "Rewrote an outdated Node.js backend, removing the service's main performance bottleneck.",
+            "period": "September 2019 – September 2025",
+            "mission": "Rewrote the investment platform’s Node.js backend, speeding up API response 60x.",
             "bullets": [
-              "Sped up API response 60x by replacing direct Google Sheets requests with caching every 10–15 minutes.",
-              "Designed crypto portfolio data aggregation from external sources from scratch.",
-              "Rewrote the frontend in plain Vanilla JS (ES6) for instant loading without framework overhead."
+              "Sped up API response 60x by replacing direct Google Sheets requests with pre-caching.",
+              "Designed aggregation and multi-layer caching for streaming WebSocket data.",
+              "Built supporting Node.js services for crypto portfolio data aggregation."
             ]
           },
           {
-            "company": "Fintorg",
-            "companyLine": "A government procurement tracking service",
+            "company": "Eland (client \"Fintorg\")",
+            "companyLine": "A government procurement monitoring service",
             "location": "Moscow, Russia",
             "role": "Backend Developer",
-            "period": "2015 – 2016",
+            "period": "2014 – 2016",
             "mission": "Automated the collection and enrichment of legal data on companies from government tenders.",
             "bullets": [
               "Implemented FTP/XML tender data parsing with storage by procurement number.",
-              "Built a Node.js service for automatic authorization into «Kontur.Focus» via reading emails on a dummy mailbox.",
+              "Built a Node.js service for automatic authorization into \"Kontur.Focus\" via reading emails on a dummy mailbox.",
               "Removed the manual barrier to retrieving legal and litigation history by company registration number."
             ]
           },
@@ -777,7 +1036,7 @@
             "period": "2009 – 2011",
             "mission": "Built three internal web applications from scratch on a custom PHP MVC engine.",
             "bullets": [
-              "Cut managers' data-processing time by 3–4 hours a day by replacing Excel file exchange with a unified platform.",
+              "Cut managers’ data-processing time by 3–4 hours a day by replacing Excel file exchange with a unified platform.",
               "Implemented a record-locking and real-time collaboration system for multiple departments.",
               "Designed an aircraft interior condition rating dashboard with a photo-based rating system."
             ]
@@ -787,7 +1046,7 @@
       "fullstack-node": {
         "title": "Fullstack Developer (Node.js)",
         "tagline": "React + Node.js/NestJS — from architecture to production",
-        "summary": "Full-cycle development on React/Next.js + Node.js/NestJS: from architecture and database design to deployment and monitoring. Experience with high-load services, WebSocket real-time systems, and Web3 integrations.",
+        "summary": "Full-cycle development on React/Next.js + Node.js: architecture, database, deployment, monitoring. Experience with WebSocket real-time systems, Web3 integrations, and AI/ASR pipelines.",
         "skills": [
           "React",
           "Next.js",
@@ -795,20 +1054,46 @@
           "Node.js",
           "NestJS",
           "Express",
+          "WebSocket",
           "GraphQL",
           "PostgreSQL",
           "Redis",
-          "WebSocket",
           "Docker",
-          "CI/CD",
-          "Vercel"
+          "Telegram Bot API",
+          "CI/CD"
         ],
         "experience": [
           {
-            "company": "My own web studio",
-            "companyLine": "A flexible full-cycle web studio, 9–14 people",
+            "company": "Cryptobazar",
+            "companyLine": "A crypto market investment platform",
             "location": "Remote",
-            "role": "Fullstack Developer / Technical Lead",
+            "role": "Fullstack Developer / Frontend Architect",
+            "period": "September 2019 – September 2025",
+            "mission": "Owned the product end to end — from frontend architecture to backend performance.",
+            "bullets": [
+              "Designed the frontend on React/Next.js and rewrote the Node.js backend, speeding up API response 60x.",
+              "Implemented real-time WebSocket analytics with multi-layer caching for streaming data.",
+              "Implemented Web3 authentication and transaction execution directly from the client app."
+            ]
+          },
+          {
+            "company": "AI Audio Transcriber",
+            "companyLine": "A desktop app for automatic audio transcription (pet project)",
+            "location": "Remote",
+            "role": "Fullstack / AI Engineer",
+            "period": "2024 – 2025",
+            "mission": "Built an end-to-end voice-message transcription pipeline using AI models.",
+            "bullets": [
+              "Built a desktop app on Electron (React/TypeScript) with a Python backend for ASR model inference.",
+              "Integrated Whisper and GigaAM models for automatic speech recognition.",
+              "Set up an automated audio-ingestion pipeline via the Telegram Bot API."
+            ]
+          },
+          {
+            "company": "My own web studio / independent practice",
+            "companyLine": "A flexible full-cycle team, 9–14 people",
+            "location": "Remote",
+            "role": "Technical Lead / Fullstack Developer",
             "period": "2018 – 2023",
             "mission": "Built high-load pet and Web3 products with a flexible fullstack team.",
             "bullets": [
@@ -829,26 +1114,13 @@
               "Designed room, user, authentication, and role management systems.",
               "Provided technical expertise and coordinated a team of 2 developers and a manager."
             ]
-          },
-          {
-            "company": "Radio component tracking service",
-            "companyLine": "A B2B service for finding radio components",
-            "location": "Remote",
-            "role": "Fullstack Developer",
-            "period": "2016 – 2017",
-            "mission": "Removed a slow external API bottleneck that was limiting the service's growth.",
-            "bullets": [
-              "Designed a caching Node.js API proxy that removed the connection-count limit.",
-              "Sped up user response times via instant delivery of cached data.",
-              "Built the frontend in React on top of the new API layer."
-            ]
           }
         ]
       },
       "fullstack-php": {
         "title": "Fullstack Developer (PHP)",
         "tagline": "Laravel, Yii2 — from MVP to production for 15+ years",
-        "summary": "PHP was one of the first stacks in my career and is still an active tool today (2 current projects this year). Full cycle: from custom MVC engines to Laravel/Yii2 production, including a stint as a startup CTO.",
+        "summary": "PHP was one of the first stacks in my career and is still an active tool today. Full cycle: from custom MVC engines to Laravel/Yii2 production, including stints as a startup CTO and external technical lead.",
         "skills": [
           "PHP",
           "Laravel",
@@ -859,12 +1131,24 @@
           "REST",
           "OAuth2",
           "RBAC",
-          "Redis",
-          "Laravel Horizon"
+          "Redis"
         ],
         "experience": [
           {
-            "company": "«Psychologists Online»",
+            "company": "Eland",
+            "companyLine": "LMS platform and corporate systems on PHP",
+            "location": "Moscow, Russia",
+            "role": "Technical Lead / Fullstack Developer",
+            "period": "January 2016 – January 2020",
+            "mission": "Designed and shipped an LMS platform on Laravel/Yii2.",
+            "bullets": [
+              "Designed an LMS platform with video courses, time-limited content access, and learning analytics.",
+              "Migrated legacy jQuery interfaces to React/Vue without stopping business processes.",
+              "Introduced REST API, OAuth2, and code review standards for the team."
+            ]
+          },
+          {
+            "company": "\"Psychologists Online\"",
             "companyLine": "A startup in online education and psychology",
             "location": "Moscow, Russia",
             "role": "CTO / Co-founder",
@@ -872,7 +1156,7 @@
             "mission": "Built the product from scratch solo — from backend architecture to business co-ownership.",
             "bullets": [
               "Built a custom Yii/Yii2 forum that auto-unlocks branches based on passed assessments.",
-              "Designed the product's entire backend architecture as the company's sole developer.",
+              "Designed the product’s entire backend architecture as the company’s sole developer.",
               "Implemented a moderation system and student-mentor interaction workflow."
             ]
           },
@@ -885,7 +1169,7 @@
             "mission": "Modernized an outdated LMS and wiki platform for thousands of users.",
             "bullets": [
               "Rewrote the LMS off Drupal, introducing cross-review (three-peer plus self-review).",
-              "Built an OAuth2 REST API for the «Distance» group coaching module on a Yii backend.",
+              "Built an OAuth2 REST API for the \"Distance\" group coaching module on a Yii backend.",
               "Extended CKEditor with Markdown/HTML/Wiki parsers and an article categorization system."
             ]
           },
@@ -906,20 +1190,46 @@
       },
       "team-lead": {
         "title": "Team Lead / Technical Manager",
-        "tagline": "Teams of up to 20 — process, architecture, mentorship",
-        "summary": "5+ years of management experience on top of 18+ years of engineering practice: from startup CTO to leading a studio of 9–14 people and curating student teams. I build processes (Git, CI/CD, code review) and make architectural decisions.",
+        "tagline": "Teams of up to 12 — process, architecture, mentorship",
+        "summary": "5+ years of management experience on top of 19+ years of engineering practice: from startup CTO to external technical lead and student-team curator. Led distributed teams of up to 12 engineers, built processes (Git Flow, peer review, CI/CD).",
         "skills": [
           "Team Lead",
           "People management",
           "Code review",
           "Architectural decisions",
           "CI/CD",
-          "Git-flow",
+          "Git Flow",
           "Agile/Scrum",
           "Hiring & onboarding",
-          "Mentorship"
+          "Mentorship",
+          "Technical presales"
         ],
         "experience": [
+          {
+            "company": "Consulting and direct contracts",
+            "companyLine": "S7, International Aerial Gymnastics Federation, and others",
+            "location": "Remote",
+            "role": "Frontend Architect / Team Lead",
+            "period": "2016 – present",
+            "mission": "Led distributed teams of up to 12 engineers building corporate systems.",
+            "bullets": [
+              "Assembled and led a team of 9–14 (frontend, backend, QA/PM) for the International Aerial Gymnastics Federation — an online judging platform with live streaming.",
+              "Introduced Git Flow, peer review, and CI/CD, unifying processes across different teams.",
+              "Performed technical assessment of projects and supported teams through implementation."
+            ]
+          },
+          {
+            "company": "Eland",
+            "companyLine": "External technical lead, corporate systems",
+            "location": "Moscow, Russia",
+            "role": "Technical Lead / Fullstack Developer",
+            "period": "January 2016 – January 2020",
+            "mission": "Owned architectural decisions and technical project assessment together with clients.",
+            "bullets": [
+              "Made architectural decisions and led technical project assessment together with analysts and clients.",
+              "Introduced code review standards and task decomposition, mentored the team’s developers."
+            ]
+          },
           {
             "company": "My own web studio",
             "companyLine": "A flexible full-cycle web studio, 9–14 people",
@@ -934,19 +1244,6 @@
             ]
           },
           {
-            "company": "International Aerial Gymnastics Federation",
-            "companyLine": "Online judging platform for competitions",
-            "location": "Remote",
-            "role": "Team Lead",
-            "period": "2020",
-            "mission": "Led development of a platform for holding competitions during the pandemic.",
-            "bullets": [
-              "Assembled and led a team of up to 14 (markup, frontend/backend, manager/QA).",
-              "Delivered a live-streaming and real-time scoring system from scratch.",
-              "Coordinated development under a hard deadline — competitions couldn't be postponed."
-            ]
-          },
-          {
             "company": "Yandex Practicum",
             "companyLine": "League Alert, a nonprofit fullstack student project",
             "location": "Remote",
@@ -956,7 +1253,7 @@
             "bullets": [
               "Introduced a team-lead structure and peer review for a team of 10 frontend developers.",
               "Set up real CI (GitLab/GitHub) and task tracking in Notion instead of simulated process.",
-              "Coordinated result demos to the client over the project's 9-month run."
+              "Coordinated result demos to the client over the project’s 9-month run."
             ]
           }
         ]
@@ -964,7 +1261,7 @@
       "mentoring-education": {
         "title": "Education & Mentoring",
         "tagline": "15+ years in IT education — from schoolchildren to production developers",
-        "summary": "I've been teaching and designing educational programs since 2009: mass online courses (up to 10,000 students per cohort), university programs, and one-on-one mentoring for Middle/Middle+ developers. 4.8–4.9 rating from 4,500+ reviews.",
+        "summary": "I’ve been teaching and designing educational programs since 2009: trained 10,000+ developers (GeekBrains, Netology, RUDN), mentor Middle/Middle+ engineers one-on-one, and teach professional-development courses at OTUS. 4.8–4.9 rating from 4,500+ reviews, retention >80%.",
         "skills": [
           "Teaching methodology",
           "Program development",

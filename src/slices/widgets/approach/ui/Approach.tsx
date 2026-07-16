@@ -10,6 +10,7 @@ import Stack from '@mui/material/Stack'
 import { alpha } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
 import { Section } from '@shared/ui'
+import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { useApproachItems } from '../model/items'
 
@@ -20,6 +21,8 @@ const icons = [
   AutoAwesomeIcon,
   HandymanIcon,
 ]
+
+const MotionPaper = motion.create(Paper)
 
 export function Approach() {
   const { t } = useTranslation()
@@ -32,7 +35,12 @@ export function Approach() {
           const Icon = icons[i % icons.length]
           return (
             <Grid key={item} size={{ xs: 12, sm: 6, md: 4 }}>
-              <Paper variant="outlined" sx={{ p: 3, height: '100%' }}>
+              <MotionPaper
+                variant="outlined"
+                sx={{ p: 3, height: '100%' }}
+                whileHover={{ y: -6, boxShadow: '0 16px 32px rgba(0,0,0,0.4)' }}
+                transition={{ duration: 0.25, ease: 'easeOut' }}
+              >
                 <Stack spacing={1.5}>
                   <Box
                     sx={{
@@ -51,7 +59,7 @@ export function Approach() {
                   </Box>
                   <Typography>{item}</Typography>
                 </Stack>
-              </Paper>
+              </MotionPaper>
             </Grid>
           )
         })}

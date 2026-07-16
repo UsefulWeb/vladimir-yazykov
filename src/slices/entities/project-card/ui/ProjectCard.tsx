@@ -6,10 +6,13 @@ import Link from '@mui/material/Link'
 import Skeleton from '@mui/material/Skeleton'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
+import { motion } from 'framer-motion'
 import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { type Project, useProjectCategoryLabels } from '../model/projects'
 import { useGithubStats } from '../model/useGithubStats'
+
+const MotionCard = motion.create(Card)
 
 interface ProjectCardProps {
   project: Project
@@ -52,7 +55,12 @@ export function ProjectCard({
   const categoryLabels = useProjectCategoryLabels()
 
   return (
-    <Card variant="outlined" sx={{ height: '100%' }}>
+    <MotionCard
+      variant="outlined"
+      sx={{ height: '100%' }}
+      whileHover={{ y: -6, boxShadow: '0 16px 32px rgba(0,0,0,0.4)' }}
+      transition={{ duration: 0.25, ease: 'easeOut' }}
+    >
       <CardContent>
         <Stack spacing={2}>
           <Stack
@@ -100,11 +108,13 @@ export function ProjectCard({
               <Chip key={tech} label={tech} size="small" variant="outlined" />
             ))}
           </Stack>
-          <Typography variant="caption" color="text.secondary">
-            {project.metrics.join(' • ')}
-          </Typography>
+          {project.metrics.length > 0 && (
+            <Typography variant="caption" color="text.secondary">
+              {project.metrics.join(' • ')}
+            </Typography>
+          )}
         </Stack>
       </CardContent>
-    </Card>
+    </MotionCard>
   )
 }

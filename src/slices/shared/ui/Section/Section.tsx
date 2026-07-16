@@ -2,6 +2,7 @@ import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
+import { motion } from 'framer-motion'
 import type { ReactNode } from 'react'
 
 interface SectionProps {
@@ -25,21 +26,35 @@ export function Section({ title, subtitle, children, id }: SectionProps) {
             sx={{ mb: 4, maxWidth: 720, '@media print': { mb: 1 } }}
           >
             {title && (
-              <Typography
-                variant="h4"
-                component="h2"
-                color="text.primary"
-                sx={{ fontWeight: 700 }}
+              <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.4 }}
+                transition={{ duration: 0.5, ease: 'easeOut' }}
               >
-                {title}
-              </Typography>
+                <Typography
+                  variant="h4"
+                  component="h2"
+                  color="text.primary"
+                  sx={{ fontWeight: 700 }}
+                >
+                  {title}
+                </Typography>
+              </motion.div>
             )}
             {subtitle && (
               <Typography color="text.secondary">{subtitle}</Typography>
             )}
           </Stack>
         )}
-        {children}
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.15 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+        >
+          {children}
+        </motion.div>
       </Container>
     </Box>
   )

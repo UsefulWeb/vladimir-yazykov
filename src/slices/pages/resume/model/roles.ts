@@ -20,8 +20,6 @@ export interface ResumeRole {
   experience: ResumeExperienceEntry[]
 }
 
-const experienceIndexes = [0, 1, 2]
-
 export function useResumeRoles(): ResumeRole[] {
   const { t } = useTranslation()
 
@@ -33,17 +31,9 @@ export function useResumeRoles(): ResumeRole[] {
     skills: t(`resume.roles.${slug}.skills`, {
       returnObjects: true,
     }) as string[],
-    experience: experienceIndexes.map((i) => ({
-      company: t(`resume.roles.${slug}.experience.${i}.company`),
-      companyLine: t(`resume.roles.${slug}.experience.${i}.companyLine`),
-      location: t(`resume.roles.${slug}.experience.${i}.location`),
-      role: t(`resume.roles.${slug}.experience.${i}.role`),
-      period: t(`resume.roles.${slug}.experience.${i}.period`),
-      mission: t(`resume.roles.${slug}.experience.${i}.mission`),
-      bullets: t(`resume.roles.${slug}.experience.${i}.bullets`, {
-        returnObjects: true,
-      }) as string[],
-    })),
+    experience: t(`resume.roles.${slug}.experience`, {
+      returnObjects: true,
+    }) as ResumeExperienceEntry[],
   }))
 }
 

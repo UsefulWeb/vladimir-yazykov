@@ -4,6 +4,7 @@ import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 import { site } from '@shared/config'
 import { assetUrl, mergeSx } from '@shared/util'
+import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 
 export interface HeroProps extends BoxProps {
@@ -11,6 +12,20 @@ export interface HeroProps extends BoxProps {
   title?: string
   subtitle?: string
   description?: string
+}
+
+const container = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.12, delayChildren: 0.1 } },
+}
+
+const item = {
+  hidden: { opacity: 0, y: 20 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: 'easeOut' as const },
+  },
 }
 
 export function Hero({
@@ -53,28 +68,41 @@ export function Hero({
       )}
     >
       <Container maxWidth="lg">
-        <Stack spacing={2.5} sx={{ maxWidth: 720 }}>
+        <Stack
+          spacing={2.5}
+          sx={{ maxWidth: 720 }}
+          component={motion.div}
+          variants={container}
+          initial="hidden"
+          animate="show"
+        >
           {resolvedSubtitle && (
-            <Typography variant="overline" sx={{ opacity: 0.9 }}>
-              {resolvedSubtitle}
-            </Typography>
+            <motion.div variants={item}>
+              <Typography variant="overline" sx={{ opacity: 0.9 }}>
+                {resolvedSubtitle}
+              </Typography>
+            </motion.div>
           )}
 
-          <Typography
-            variant="h2"
-            component="h1"
-            sx={{ fontWeight: 800, lineHeight: 1.1 }}
-          >
-            {resolvedTitle}
-          </Typography>
+          <motion.div variants={item}>
+            <Typography
+              variant="h2"
+              component="h1"
+              sx={{ fontWeight: 800, lineHeight: 1.1 }}
+            >
+              {resolvedTitle}
+            </Typography>
+          </motion.div>
 
           {resolvedDescription && (
-            <Typography variant="h6" sx={{ opacity: 0.9, fontWeight: 400 }}>
-              {resolvedDescription}
-            </Typography>
+            <motion.div variants={item}>
+              <Typography variant="h6" sx={{ opacity: 0.9, fontWeight: 400 }}>
+                {resolvedDescription}
+              </Typography>
+            </motion.div>
           )}
 
-          {children}
+          <motion.div variants={item}>{children}</motion.div>
         </Stack>
       </Container>
     </Box>

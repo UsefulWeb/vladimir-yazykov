@@ -3,6 +3,7 @@ import CardActions from '@mui/material/CardActions'
 import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
 import { CtaButton } from '@shared/ui'
+import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 
 interface DirectionCardProps {
@@ -11,6 +12,8 @@ interface DirectionCardProps {
   href: string
   cta: string
 }
+
+const MotionCard = motion.create(Card)
 
 export function DirectionCard({
   title,
@@ -21,9 +24,11 @@ export function DirectionCard({
   const { t } = useTranslation()
 
   return (
-    <Card
+    <MotionCard
       variant="outlined"
       sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+      whileHover={{ y: -6, boxShadow: '0 16px 32px rgba(0,0,0,0.4)' }}
+      transition={{ duration: 0.25, ease: 'easeOut' }}
     >
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography variant="h6" component="h3" gutterBottom>
@@ -41,6 +46,6 @@ export function DirectionCard({
           {t('directions.contact')}
         </CtaButton>
       </CardActions>
-    </Card>
+    </MotionCard>
   )
 }
